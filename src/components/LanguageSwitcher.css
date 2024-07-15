@@ -1,25 +1,13 @@
-#language-switcher {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 1rem;
-}
-
-#language-button {
-    background: linear-gradient(to bottom right, #5B58EB, #BB63FF) !important;
-    color: #fff;
+#language-switcher .language-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
     cursor: pointer;
-    transition: 0.3s;
-    margin-bottom: 0.5rem;
-    font-weight: 700;
-    font-size: 1em;
-    width: 100%;
+    font-size: 16px;
 }
 
-.language-button:hover {
-    background: linear-gradient(to bottom right, #4A47D1, #9A5DF2);
+#language-switcher .language-button:hover {
+    background-color: #45a049;
 }

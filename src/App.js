@@ -9,6 +9,8 @@ import RecentTranslations from './components/RecentTranslations';
 import About from './components/About';
 import RecentPosts from './components/RecentPosts';
 import Contact from './components/Contact';
+import './i18n';
+import './components/LanguageSwitcher.css';
 
 function App() {
   const { t } = useTranslation();
