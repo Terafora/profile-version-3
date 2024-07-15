@@ -10,7 +10,8 @@ export default function About() {
             <div className="row g-5 mx-2">
                 <div className="col-6">
                     <h3>{t('hello')}</h3>
-                    <p>{t('aboutText')}</p>
+                    <p>{t('aboutText1')}</p>
+                    <p>{t('aboutText2')}</p>
                 </div>
                 <div className="col-6">
                     <img src="#" className="img-fluid" alt="Charlotte Stone" />
