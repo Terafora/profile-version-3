@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import './LanguageSwitcher.css';
 
 const LanguageSwitcher = () => {
     const { i18n } = useTranslation();
@@ -9,9 +10,9 @@ const LanguageSwitcher = () => {
     };
 
     return (
-        <div>
-            <button onClick={() => changeLanguage('en')}>English</button>
-            <button onClick={() => changeLanguage('jp')}>日本語</button>
+        <div id="language-switcher">
+            <button id="language-button" onClick={() => changeLanguage('en')}>EN</button>
+            <button id="language-button2" onClick={() => changeLanguage('jp')}>日本</button>
         </div>
     );
 };

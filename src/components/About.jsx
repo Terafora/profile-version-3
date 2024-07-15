@@ -5,7 +5,7 @@ export default function About() {
     const { t } = useTranslation();
 
     return (
-        <section className="row">
+        <section className="row about">
             <h2>{t('about')}</h2>
             <div className="row g-5 mx-2">
                 <div className="col-6">

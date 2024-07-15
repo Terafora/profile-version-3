@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from './components/LanguageSwitcher';
 import Navbar from './components/Navbar';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
@@ -16,8 +15,8 @@ function App() {
 
   return (
     <div className="App">
+      <Navbar />
       <div className="container-fluid">
-        <Navbar />
         <MainContent />
         <About />
         <RecentProjects/>

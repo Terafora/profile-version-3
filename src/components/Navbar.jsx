@@ -24,7 +24,7 @@ export default function Navbar() {
             <nav className="d-none d-lg-block lr-pad-none">
                 <ul className="navbar-nav side-nav">
                     <li className="nav-item">
-                        <a className="nav-link active" aria-current="page" href="#"><i className="fa-solid fa-house"></i></a>
+                        <a className="nav-link" href="#"><i className="fa-solid fa-house"></i></a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#"><i className="fa-solid fa-user"></i></a>
@@ -43,7 +43,7 @@ export default function Navbar() {
 
             <nav className="navbar navbar-expand-lg bg-body-tertiary d-lg-none w-100 lr-pad-none">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Charlotte Stone</a>
+                    <a className="navbar-brand text-white" href="#">Charlotte Stone</a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                         aria-label="Toggle navigation">
@@ -52,20 +52,17 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">{t('home')}</a>
+                                <a className="nav-link text-white" aria-current="page" href="#">{t('home')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">{t('features')}</a>
+                                <a className="nav-link text-white" href="#">{t('features')}</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">{t('pricing')}</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link disabled" aria-disabled="true">{t('disabled')}</a>
+                                <a className="nav-link text-white" href="#">{t('pricing')}</a>
                             </li>
                             <li className="nav-item">
                                 {/* Language switcher for small and medium screens */}
-                                <div className="d-lg-none">
+                                <div className="d-lg-none justify-content-center">
                                     <LanguageSwitcher />
                                 </div>
                             </li>
