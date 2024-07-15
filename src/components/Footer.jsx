@@ -1,6 +1,5 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Footer() {
 
@@ -10,11 +9,8 @@ export default function Footer() {
         <footer>
             <div class="container">
                 <div class="row g-5 mx-2">
-                    <div class="col-6">
-                        <p>Charlotte Stone Web Designs</p>
-                    </div>
-                    <div class="col-6">
-                        <p>Designed and Developed by Charlotte Stone</p>
+                    <div class="col-12">
+                        <p>{t('footer')}</p>
                     </div>
                 </div>
             </div>

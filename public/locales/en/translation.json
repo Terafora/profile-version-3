@@ -1,5 +1,11 @@
 {
     "name": "Charlotte Stone",
     "title": "Software Developer, Translator",
-    "learnMore": "Learn More"
+    "learnMore": "Learn More",
+    "about": "About",
+    "aboutText": "I am a full-stack web developer and translator based in Carmarthenshire, Wales. I have experience working with a variety of technologies, including JavaScript, React, Node.js, and MongoDB. I am also a freelance translator, with experience translating a variety of online tutorials and documents which can be seen below.",
+    "RecentProjects": "Recent Projects",
+    "RecentPosts": "Recent Posts",
+    "RecentTranslations": "Recent Translations",
+    "footer": "Designed and Developed by Charlotte Stone"
 }
