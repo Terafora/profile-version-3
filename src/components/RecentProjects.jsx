@@ -1,7 +1,6 @@
-// RecentProjects.jsx
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import Card from './Card';
+import ProjectCard from './ProjectCard';
 
 const RecentProjects = () => {
     const { t } = useTranslation();
@@ -29,7 +28,7 @@ const RecentProjects = () => {
                             <div key={groupIndex} className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}>
                                 <div className="row g-5 mx-2 justify-content-around">
                                     {group.map((project) => (
-                                        <Card key={project.id} project={project} />
+                                        <ProjectCard key={project.id} project={project} />
                                     ))}
                                 </div>
                             </div>

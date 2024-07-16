@@ -1,28 +1,51 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import TranslationCard from './TranslationCard';
 
-export default function RecentTranslations() {
+const RecentTranslations = () => {
     const { t } = useTranslation();
+    const [translations, setTranslations] = useState([]);
+
+    useEffect(() => {
+        fetch('./works/translations.json')
+            .then(response => response.json())
+            .then(data => setTranslations(data))
+            .catch(error => console.error('Error fetching translations:', error));
+    }, []);
+
+    const groupedTranslations = [];
+    for (let i = 0; i < translations.length; i += 3) {
+        groupedTranslations.push(translations.slice(i, i + 3));
+    }
 
     return (
         <section className="row">
             <h2>{t('RecentTranslations')}</h2>
             <div className="container">
-                <div className="row g-5 mx-2 justify-content-around">
-                    <div className="card col-lg-3 col-md-6 col-sm-9">
-                        <img src="#" className="Recent-Work-Img" alt="Image of a website I've made" />
-                        <h4 className="text-center">{t('title')}</h4>
+                <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="carousel">
+                    <div className="carousel-inner">
+                        {groupedTranslations.map((group, groupIndex) => (
+                            <div key={groupIndex} className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}>
+                                <div className="row g-5 mx-2 justify-content-around">
+                                    {group.map((translation) => (
+                                        <TranslationCard key={translation.id} translation={translation} />
+                                    ))}
+                                </div>
+                            </div>
+                        ))}
                     </div>
-                    <div className="card col-lg-3 col-md-6 col-sm-9">
-                        <img src="#" className="Recent-Work-Img" alt="Image of a website I've made" />
-                        <h4 className="text-center">{t('title')}</h4>
-                    </div>
-                    <div className="card col-lg-3 col-md-6 col-sm-9">
-                        <img src="#" className="Recent-Work-Img" alt="Image of a website I've made" />
-                        <h4 className="text-center">{t('title')}</h4>
-                    </div>
+                    <button className="carousel-control-prev" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>
+                    <button className="carousel-control-next" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
         </section>
     );
-}
+};
+
+export default RecentTranslations;
