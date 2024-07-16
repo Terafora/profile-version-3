@@ -1,0 +1,13 @@
+{
+    "name": "Charlotte Stone",
+    "title": "Datblygwr Meddalwedd, Cyfieithydd",
+    "learnMore": "Dysgu Mwy",
+    "about": "Am",
+    "hello": "Hwyl!",
+    "aboutText1": "Fi yw Charlotte, datblygwr gwe llawn pentwr brwd sy'n byw yn Ardal Abertawe Fwyaf. Gyda mwy na phum mlynedd o brofiad mewn cefnogaeth dechnegol a pheirianneg meddalwedd, rwy'n arbenigo mewn creu gwefannau deinamig gan ddefnyddio JavaScript, Python, React, Node, Django, a mwy. Mae fy ymagwedd yn canolbwyntio ar bobl, gan ganolbwyntio ar ddarparu gwerth pendant a sicrhau profiadau defnyddiwr di-dor.",
+    "aboutText2": "Mae gen i gefndir cadarn mewn cyfieithu, ar ôl cymryd rhan mewn prosiectau amrywiol yn rhychwantu sectorau technoleg ac addysg. Tra bod Saesneg yn iaith frodorol i mi, rwy'n rhugl yn Japaneeg a Ffrangeg tra hefyd yn gyfarwydd â sawl iaith arall. Rwy'n barhaus yn chwilio am gyfleoedd newydd i helpu busnesau i gyrraedd cynulleidfa fyd-eang.",
+    "RecentProjects": "Prosiectau Diweddar",
+    "RecentPosts": "Swyddi Diweddar",
+    "RecentTranslations": "Cyfieithiadau Diweddar",
+    "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"
+}

@@ -6,7 +6,7 @@ import './LanguageSwitcher.css';
     const languages = [
         { code: 'en', label: 'EN', text: 'En' },
         { code: 'jp', label: '日本', text: '日本' },
-        { code: 'es', label: 'ES', text: 'ES' }
+        { code: 'cy', label: 'CY', text: 'CY' }
     ];
 
     const LanguageSwitcher = () => {
