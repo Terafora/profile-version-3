@@ -24,7 +24,7 @@ const RecentTranslations = () => {
         <section className="row">
             <h2>{t('RecentTranslations')}</h2>
             <div className="container">
-                <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="carousel">
+                <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="false">
                     <div className="carousel-inner">
                         {groupedTranslations.map((group, groupIndex) => (
                             <div key={groupIndex} className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}>
