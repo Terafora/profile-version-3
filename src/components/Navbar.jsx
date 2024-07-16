@@ -36,7 +36,7 @@ export default function Navbar() {
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-regular fa-comment"></i>
+                            <i className="fa-regular fa-comment"></i>
                         </a>
                         <LanguageSwitcher />
                     </li>
@@ -63,7 +63,7 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="#">{t('pricing')}</a>
                             </li>
-                            <li className="nav-item dropdown">
+                            <li id="language-dropdown-sm" className="nav-item dropdown">
                                 {/* Language switcher for small and medium screens */}
                                 <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     {t('Languages')}

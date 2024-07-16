@@ -12,17 +12,15 @@ body {
     color: #fff;
 }
 
-
 h2 {
     font-size: 2.5rem;
     font-weight: 900;
     font-style: normal;
     margin-bottom: 1rem;
-
 }
 
 nav {
-    background: linear-gradient(to bottom right, #5B58EB, #BB63FF);
+    background: linear-gradient(to right, #5B58EB, #BB63FF);
 }
 
 .lr-pad-none {
@@ -30,23 +28,36 @@ nav {
     padding-right: 0;
 }
 
-.language-menu{
-        background: linear-gradient(to bottom right, #5B58EB, #BB63FF);
+.language-menu {
+    background: rgba(0, 0, 0, 0);
+    border: none;
 }
 
-.language-item{
+.language-item {
     color: #fff;
+    border-radius: 5px;
+}
+
+.language-item:hover {
+    color: #fff;
+    background: rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+#language-dropdown-sm {
+    background: linear-gradient(to right, #5B58EB, #BB63FF);
+    color: #fff;
+    border-radius: 5px;
 }
 
 .card {
     border: none;
     border-radius: 10px;
-    box-shadow: 2 2 10px rgba(241,90,33,0.5);
-    background:linear-gradient(to bottom-right, rgb(63,165,253), rgb(78,219,194));
+    box-shadow: 2 2 10px rgba(241, 90, 33, 0.5);
+    background: linear-gradient(to bottom-right, rgb(63, 165, 253), rgb(78, 219, 194));
 }
 
 .btn-learn {
-    background: linear-gradient(to bottom right, #5B58EB, #BB63FF);
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -68,7 +79,6 @@ nav {
     padding: 2rem 0;
     min-height: 100vh;
 }
-
 
 /* Nav settings for larger screens */
 @media (min-width: 992px) {
@@ -110,7 +120,23 @@ nav {
     }
 
     .App {
-        padding-left:8vw;
+        padding-left: 8vw;
         padding-right: 8vw;
+    }
+
+    .language-menu {
+        background: linear-gradient(to right, #5B58EB, #BB63FF);
+        border: none;
+        border-radius: 5px;
+        drop-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .language-item {
+        color: #fff;
+    }
+
+    .language-item:hover {
+        background: rgba(0, 0, 0, 0.1);
+        pointer: pointer;
     }
 }
