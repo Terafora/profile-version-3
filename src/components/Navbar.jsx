@@ -9,11 +9,11 @@ const LanguageSwitcher = () => {
     };
 
     return (
-        <div>
-            <button className='btn btn-success' onClick={() => changeLanguage('en')}>English</button>
-            <button onClick={() => changeLanguage('jp')}>日本語</button>
-            <button onClick={() => changeLanguage('cy')}>Cymraeg</button>
-        </div>
+        <ul className="dropdown-menu language-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a className="dropdown-item language-item" onClick={() => changeLanguage('en')}>EN</a></li>
+            <li><a className="dropdown-item language-item" onClick={() => changeLanguage('jp')}>日本</a></li>
+            <li><a className="dropdown-item language-item" onClick={() => changeLanguage('cy')}>CY</a></li>
+        </ul>
     );
 };
 
@@ -22,6 +22,7 @@ export default function Navbar() {
 
     return (
         <>
+            {/* Navbar for large screens */}
             <nav className="d-none d-lg-block lr-pad-none">
                 <ul className="navbar-nav side-nav">
                     <li className="nav-item">
@@ -33,15 +34,16 @@ export default function Navbar() {
                     <li className="nav-item">
                         <a className="nav-link" href="#"><i className="fa-solid fa-tag"></i></a>
                     </li>
-                    <li className="nav-item">
-                        {/* Language switcher for large screens */}
-                        <div className="d-none d-lg-block">
-                            <LanguageSwitcher />
-                        </div>
+                    <li className="nav-item dropdown">
+                        <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-regular fa-comment"></i>
+                        </a>
+                        <LanguageSwitcher />
                     </li>
                 </ul>
             </nav>
 
+            {/* Navbar for small and medium screens */}
             <nav className="navbar navbar-expand-lg bg-body-tertiary d-lg-none w-100 lr-pad-none">
                 <div className="container-fluid">
                     <a className="navbar-brand text-white" href="#">Charlotte Stone</a>
@@ -61,11 +63,12 @@ export default function Navbar() {
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="#">{t('pricing')}</a>
                             </li>
-                            <li className="nav-item">
+                            <li className="nav-item dropdown">
                                 {/* Language switcher for small and medium screens */}
-                                <div className="d-lg-none justify-content-center">
-                                    <LanguageSwitcher />
-                                </div>
+                                <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    {t('Languages')}
+                                </a>
+                                <LanguageSwitcher />
                             </li>
                         </ul>
                     </div>
