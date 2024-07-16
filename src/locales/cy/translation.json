@@ -7,6 +7,23 @@
     "aboutText1": "Fi yw Charlotte, datblygwr gwe llawn pentwr brwd sy'n byw yn Ardal Abertawe Fwyaf. Gyda mwy na phum mlynedd o brofiad mewn cefnogaeth dechnegol a pheirianneg meddalwedd, rwy'n arbenigo mewn creu gwefannau deinamig gan ddefnyddio JavaScript, Python, React, Node, Django, a mwy. Mae fy ymagwedd yn canolbwyntio ar bobl, gan ganolbwyntio ar ddarparu gwerth pendant a sicrhau profiadau defnyddiwr di-dor.",
     "aboutText2": "Mae gen i gefndir cadarn mewn cyfieithu, ar ôl cymryd rhan mewn prosiectau amrywiol yn rhychwantu sectorau technoleg ac addysg. Tra bod Saesneg yn iaith frodorol i mi, rwy'n rhugl yn Japaneeg a Ffrangeg tra hefyd yn gyfarwydd â sawl iaith arall. Rwy'n barhaus yn chwilio am gyfleoedd newydd i helpu busnesau i gyrraedd cynulleidfa fyd-eang.",
     "RecentProjects": "Prosiectau Diweddar",
+    "projects": {
+        "1": {
+            "title": "Amserlen Pomodoro a Rhestr Wirio'r Desg",
+            "description": "Mae'r Ap Pomodoro Timer a Rhestr Wirio yn offeryn cynhyrchiant desktop a adeiladwyd gan ddefnyddio Electron, HTML, CSS, a JavaScript. Mae'n cyfuno timer Pomodoro ar gyfer rheoli amser â nodwedd rhestr wirio ar gyfer trefnu tasg.",
+            "altText": "Image of a website I've made"
+        },
+        "2": {
+            "title": "Prosiect 2",
+            "description": "Dyma ddisgrifiad o Brosiect 2.",
+            "altText": "Image of a website I've made"
+        },
+        "3": {
+            "title": "Prosiect 3",
+            "description": "Dyma ddisgrifiad o Brosiect 3.",
+            "altText": "Image of a website I've made"
+        }
+    },
     "RecentPosts": "Swyddi Diweddar",
     "RecentTranslations": "Cyfieithiadau Diweddar",
     "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"
