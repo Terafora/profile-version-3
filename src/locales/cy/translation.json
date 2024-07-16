@@ -26,5 +26,22 @@
     },
     "RecentPosts": "Swyddi Diweddar",
     "RecentTranslations": "Cyfieithiadau Diweddar",
+    "translations": {
+        "1": {
+            "title": "Cyfieithiad 1",
+            "description": "Dyma ddisgrifiad o Gyfieithiad 1.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
+        },
+        "2": {
+            "title": "Cyfieithiad 2",
+            "description": "Dyma ddisgrifiad o Gyfieithiad 2.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
+        },
+        "3": {
+            "title": "Cyfieithiad 3",
+            "description": "Dyma ddisgrifiad o Gyfieithiad 3.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
+        }
+    },
     "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"
 }

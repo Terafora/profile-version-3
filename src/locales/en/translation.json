@@ -26,5 +26,22 @@
     },
     "RecentPosts": "Recent Posts",
     "RecentTranslations": "Recent Translations",
+    "translations":{
+        "1": {
+            "title": "Translation 1",
+            "description": "This is a description of Translation 1.",
+            "altText": "Image of a website I've made"
+        },
+        "2": {
+            "title": "Translation 2",
+            "description": "This is a description of Translation 2.",
+            "altText": "Image of a website I've made"
+        },
+        "3": {
+            "title": "Translation 3",
+            "description": "This is a description of Translation 3.",
+            "altText": "Image of a website I've made"
+        }
+    },
     "footer": "Designed and Developed by Charlotte Stone"
 }

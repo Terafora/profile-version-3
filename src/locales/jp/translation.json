@@ -25,6 +25,23 @@
         }
     },
     "RecentTranslations": "最近の翻訳",
+    "translations": {
+        "1": {
+            "title": "Bash スクリプトチュートリアル – 初心者向けの Linux シェルスクリプトとコマンドライン",
+            "description": "これは翻訳1の説明です。",
+            "altText": "私が作ったウェブサイトの画像"
+        },
+        "2": {
+            "title": "翻訳 2",
+            "description": "これは翻訳2の説明です。",
+            "altText": "私が作ったウェブサイトの画像"
+        },
+        "3": {
+            "title": "翻訳 3",
+            "description": "これは翻訳3の説明です。",
+            "altText": "私が作ったウェブサイトの画像"
+        }
+    },
     "RecentPosts": "最近の投稿",
     "footer": "シャーロット・ストーンによってデザインされ、開発されました"
 }

@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "./pictures/Cast-a-Function-in-SQL---Convert-Char-to-Int-SQL-Server-Example.png",
+        "url": ""
+    },
+    {
+        "id": 2,
+        "imgSrc": "path_to_image2.jpg",
+        "url": "https://www.example.com"
+    }
+]
