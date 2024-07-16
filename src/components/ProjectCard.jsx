@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 
-const Card = ({ project }) => {
+const ProjectCard = ({ project }) => {
     const { t } = useTranslation();
 
     return (
@@ -14,4 +14,4 @@ const Card = ({ project }) => {
     );
 };
 
-export default Card;
+export default ProjectCard;
