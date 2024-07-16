@@ -1,12 +1,29 @@
 [
     {
         "id": 1,
-        "imgSrc": "./pictures/pomodoroTimer.png",
-        "url": "https://github.com/Terafora/desktop-pomodoro"
+        "imgSrc": "path_to_image2.jpg",
+        "url": "https://github.com/Terafora/Sapphy-Doyle-Profile-Site"
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": 98,
+        "imgSrc": "./pictures/SapphyDoyleProfileSite.png",
+        "url": "https://github.com/Terafora/Sapphy-Doyle-Profile-Site"
+
     },
     {
-        "id": 2,
-        "imgSrc": "path_to_image2.jpg",
-        "url": "https://www.example.com"
+        "id": 99,
+        "imgSrc": "./pictures/pomodoroTimer.png",
+        "url": "https://github.com/Terafora/desktop-pomodoro"
     }
 ]

@@ -9,29 +9,34 @@
     "RecentProjects": "Prosiectau Diweddar",
     "projects": {
         "1": {
-            "title": "Amserlen Pomodoro a Rhestr Wirio'r Desg",
-            "description": "Mae'r Ap Pomodoro Timer a Rhestr Wirio yn offeryn cynhyrchiant desktop a adeiladwyd gan ddefnyddio Electron, HTML, CSS, a JavaScript. Mae'n cyfuno timer Pomodoro ar gyfer rheoli amser â nodwedd rhestr wirio ar gyfer trefnu tasg.",
-            "altText": "Image of a website I've made"
-        },
-        "2": {
             "title": "Prosiect 2",
             "description": "Dyma ddisgrifiad o Brosiect 2.",
             "altText": "Image of a website I've made"
         },
-        "3": {
+        "2": {
             "title": "Prosiect 3",
             "description": "Dyma ddisgrifiad o Brosiect 3.",
             "altText": "Image of a website I've made"
+        },
+
+
+
+
+
+        "98": {
+            "title": "Safle Proffil Sapphy Doyle",
+            "description": "Dyma'r safle proffil ar gyfer Sapphy Doyle. Fe'i hadeiladwyd gan ddefnyddio HTML, CSS, JavaScript a React.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
+        },
+        "99": {
+            "title": "Amserlen Pomodoro a Rhestr Wirio'r Desg",
+            "description": "Mae'r Ap Pomodoro Timer a Rhestr Wirio yn offeryn cynhyrchiant desktop a adeiladwyd gan ddefnyddio Electron, HTML, CSS, a JavaScript. Mae'n cyfuno timer Pomodoro ar gyfer rheoli amser â nodwedd rhestr wirio ar gyfer trefnu tasg.",
+            "altText": "Ap desg Amserydd Pomodoro a Rhestr Wirio"
         }
     },
     "RecentPosts": "Swyddi Diweddar",
     "RecentTranslations": "Cyfieithiadau Diweddar",
     "translations": {
-        "1": {
-            "title": "Cyfieithiad 1",
-            "description": "Dyma ddisgrifiad o Gyfieithiad 1.",
-            "altText": "Delwedd o wefan rydw i wedi'i greu"
-        },
         "2": {
             "title": "Cyfieithiad 2",
             "description": "Dyma ddisgrifiad o Gyfieithiad 2.",
@@ -41,6 +46,27 @@
             "title": "Cyfieithiad 3",
             "description": "Dyma ddisgrifiad o Gyfieithiad 3.",
             "altText": "Delwedd o wefan rydw i wedi'i greu"
+        },
+
+
+
+
+
+
+
+
+
+
+
+        "98": {
+            "title": "Sut i Ddiweddaru Node a NPM i'r Fersiwn Diweddaraf",
+            "description": "Mae Node yn amgylchedd rhedeg ar gyfer gweithredu cod JavaScript y tu allan i'r porwr, ar ochr y gweinydd.",
+            "altText": "Sut i Ddiweddaru Node a NPM i'r Fersiwn Diweddaraf"
+        },
+        "99": {
+            "title": "Tiwtorial Sgriptio Bash – Sgriptiau Clogyn Linux a Llinell Orchymyn i Ddechreuwyr",
+            "description": "Yn Linux, mae awtomeiddio prosesau yn dibynnu'n helaeth ar sgriptio clogyn. Mae hyn yn cynnwys creu ffeil sy'n cynnwys cyfres o orchmynion y gellir eu gweithredu gyda'i gilydd.",
+            "altText": "Tiwtorial Sgriptio Bash – Sgriptiau Clogyn Linux a Llinell Orchymyn i Ddechreuwyr"
         }
     },
     "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"

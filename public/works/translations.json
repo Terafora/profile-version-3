@@ -1,12 +1,34 @@
 [
     {
         "id": 1,
-        "imgSrc": "./pictures/Cast-a-Function-in-SQL---Convert-Char-to-Int-SQL-Server-Example.png",
-        "url": "https://www.freecodecamp.org/japanese/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/"
+        "imgSrc": "path_to_image1.jpg",
+        "url": "https://www.example.com"
     },
     {
         "id": 2,
         "imgSrc": "path_to_image2.jpg",
         "url": "https://www.example.com"
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "id": 98,
+        "imgSrc": "./pictures/pexels-markus-winkler-4052195.jpg",
+        "url": "https://www.freecodecamp.org/japanese/news/how-to-update-node-and-npm-to-the-latest-version/"
+    },
+    {
+        "id": 99,
+        "imgSrc": "./pictures/Cast-a-Function-in-SQL---Convert-Char-to-Int-SQL-Server-Example.png",
+        "url": "https://www.freecodecamp.org/japanese/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/"
     }
 ]

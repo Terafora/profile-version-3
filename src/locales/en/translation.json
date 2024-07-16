@@ -9,38 +9,60 @@
     "RecentProjects": "Recent Projects",
     "projects": {
         "1": {
-            "title": "Desktop Pomodoro Timer and Checklist",
-            "description": "The Pomodoro Timer and Checklist Application is a desktop productivity tool built using Electron, HTML, CSS, and JavaScript. It combines a Pomodoro timer for time management with a checklist feature for task organization.",
-            "altText": "Pomodoro Timer and Checklist desktop app"
+            "title": "Project 1",
+            "description": "This is a description of Project 2.",
+            "altText": "Image of a website I've made"
         },
         "2": {
             "title": "Project 2",
             "description": "This is a description of Project 2.",
             "altText": "Image of a website I've made"
         },
-        "3": {
-            "title": "Project 3",
-            "description": "This is a description of Project 3.",
+
+        "98": {
+            "title": "Sapphy Doyle Profile Site",
+            "description": "This is the profile site for Sapphy Doyle. It was built using HTML, CSS, JavaScript and React.",
             "altText": "Image of a website I've made"
+        },
+        "99": {
+            "title": "Desktop Pomodoro Timer and Checklist",
+            "description": "The Pomodoro Timer and Checklist Application is a desktop productivity tool built using Electron, HTML, CSS, and JavaScript. It combines a Pomodoro timer for time management with a checklist feature for task organization.",
+            "altText": "Pomodoro Timer and Checklist desktop app"
         }
     },
     "RecentPosts": "Recent Posts",
     "RecentTranslations": "Recent Translations",
     "translations":{
         "1": {
-            "title": "Translation 1",
-            "description": "This is a description of Translation 1.",
-            "altText": "Image of a website I've made"
-        },
-        "2": {
             "title": "Translation 2",
             "description": "This is a description of Translation 2.",
             "altText": "Image of a website I've made"
         },
-        "3": {
+        "2": {
             "title": "Translation 3",
             "description": "This is a description of Translation 3.",
             "altText": "Image of a website I've made"
+        },
+
+
+
+
+
+
+
+
+
+
+
+        "98": {
+            "title": "How to Update Node and NPM to the Latest Version",
+            "description": "Node is a runtime environment for executing JavaScript code outside of the browser, on the server side.",
+            "altText": "How to Update Node and NPM to the Latest Version"
+        },
+        "99": {
+            "title": "Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners",
+            "description": "In Linux, process automation relies heavily on shell scripting. This involves creating a file containing a series of commands that can be executed together.",
+            "altText": "Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners"
         }
     },
     "footer": "Designed and Developed by Charlotte Stone"
