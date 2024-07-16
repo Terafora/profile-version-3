@@ -1,0 +1,12 @@
+[
+    {
+        "id": 1,
+        "imgSrc": "./pictures/pomodoroTimer.png",
+        "url": "https://github.com/Terafora/desktop-pomodoro"
+    },
+    {
+        "id": 2,
+        "imgSrc": "path_to_image2.jpg",
+        "url": "https://www.example.com"
+    }
+]
