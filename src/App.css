@@ -44,10 +44,19 @@ nav {
     cursor: pointer;
 }
 
-#language-dropdown-sm {
-    background: linear-gradient(to right, #5B58EB, #BB63FF);
-    color: #fff;
-    border-radius: 5px;
+.headline-one{
+    font-size: 6rem;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 1rem;
+}
+
+.lead {
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 1rem;
+
 }
 
 .card {
@@ -58,7 +67,8 @@ nav {
 }
 
 .btn-learn {
-    color: #fff;
+    background: #5B58EB;
+    color:#fff;
     border: none;
     border-radius: 5px;
     padding: 0.5rem 1rem;
@@ -67,6 +77,11 @@ nav {
     transition: 0.3s;
     font-weight: 700;
     font-size: 1.5em;
+    drop-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-learn:hover {
+    background: #BB63FF;
 }
 
 /* About Section */
