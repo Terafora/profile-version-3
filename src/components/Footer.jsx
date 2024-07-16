@@ -7,9 +7,9 @@ export default function Footer() {
 
     return (
         <footer>
-            <div class="container">
-                <div class="row g-5 mx-2">
-                    <div class="col-12">
+            <div className="container">
+                <div className="row g-5 mx-2">
+                    <div className="col-12">
                         <p>{t('footer')}</p>
                     </div>
                 </div>
