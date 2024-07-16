@@ -13,9 +13,9 @@ export default function About() {
                     <p>{t('aboutText1')}</p>
                     <p>{t('aboutText2')}</p>
                 </div>
-                <div className="col-12 col-lg-6">
-                    <img src="#" className="img-fluid" alt="Charlotte Stone" />
-                </div>
+<div className="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+    <img src="./pictures/CharlotteStone.jpeg" className="img-fluid about-img" alt="Charlotte Stone" />
+</div>
             </div>
         </section>
     );
