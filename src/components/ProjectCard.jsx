@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
             <img src={project.imgSrc} className="Recent-Work-Img" alt={project.altText} />
             <h4 className="text-center">{t(`projects.${project.id}.title`)}</h4>
             <p>{t(`projects.${project.id}.description`)}</p>
-            <a href={project.url} className="btn btn-primary">{t('learnMore')}</a>
+            <a href={project.url} className="btn btn-primary" target='_blank' rel="noreferrer">{t('learnMore')}</a>
         </div>
     );
 };
