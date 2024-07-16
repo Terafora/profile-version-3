@@ -13,9 +13,11 @@ const RecentTranslations = () => {
             .catch(error => console.error('Error fetching translations:', error));
     }, []);
 
+    const reversedTranslations = [...translations].reverse();
+
     const groupedTranslations = [];
-    for (let i = 0; i < translations.length; i += 3) {
-        groupedTranslations.push(translations.slice(i, i + 3));
+    for (let i = 0; i < reversedTranslations.length; i += 3) {
+        groupedTranslations.push(reversedTranslations.slice(i, i + 3));
     }
 
     return (

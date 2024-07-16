@@ -13,9 +13,11 @@ const RecentProjects = () => {
             .catch(error => console.error('Error fetching projects:', error));
     }, []);
 
+    const reversedProjects = [...projects].reverse();
+
     const groupedProjects = [];
-    for (let i = 0; i < projects.length; i += 3) {
-        groupedProjects.push(projects.slice(i, i + 3));
+    for (let i = 0; i < reversedProjects.length; i += 3) {
+        groupedProjects.push(reversedProjects.slice(i, i + 3));
     }
 
     return (
