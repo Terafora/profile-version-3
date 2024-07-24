@@ -30,5 +30,10 @@
         "id": 99,
         "imgSrc": "./pictures/Cast-a-Function-in-SQL---Convert-Char-to-Int-SQL-Server-Example.png",
         "url": "https://www.freecodecamp.org/japanese/news/bash-scripting-tutorial-linux-shell-script-and-command-line-for-beginners/"
+    },
+    {
+        "id": 100,
+        "imgSrc": "./pictures/cover-template--8-.png",
+        "url": "https://www.freecodecamp.org/japanese/news/javascript-refresh-page-how-to-reload-a-page-in-js/"
     }
 ]

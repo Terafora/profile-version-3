@@ -63,6 +63,11 @@
             "title": "Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners",
             "description": "In Linux, process automation relies heavily on shell scripting. This involves creating a file containing a series of commands that can be executed together.",
             "altText": "Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners"
+        },
+        "100": {
+            "title": "JavaScript Refresh Page – How to Reload a Page in JS",
+            "description": "JavaScript is a versatile programming language that allows developers to create dynamic and interactive web applications. One common task in web development is to refresh or reload a web page, either to update its content or to trigger certain actions.",
+            "altText": "JavaScript Refresh Page – How to Reload a Page in JS"
         }
     },
     "footer": "Designed and Developed by Charlotte Stone"

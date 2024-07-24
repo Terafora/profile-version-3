@@ -67,7 +67,13 @@
             "title": "Tiwtorial Sgriptio Bash – Sgriptiau Clogyn Linux a Llinell Orchymyn i Ddechreuwyr",
             "description": "Yn Linux, mae awtomeiddio prosesau yn dibynnu'n helaeth ar sgriptio clogyn. Mae hyn yn cynnwys creu ffeil sy'n cynnwys cyfres o orchmynion y gellir eu gweithredu gyda'i gilydd.",
             "altText": "Tiwtorial Sgriptio Bash – Sgriptiau Clogyn Linux a Llinell Orchymyn i Ddechreuwyr"
-        }
+        },
+        "100": {
+            "title": "Adnewyddu Tudalen JavaScript – Sut i Ail-lwytho Tudalen mewn JS",
+            "description": "Mae JavaScript yn iaith raglennu amlbwrpas sy'n galluogi datblygwyr i greu cymwysiadau gwe deinamig ac rhyngweithiol. Un dasg gyffredin mewn datblygiad gwe yw adnewyddu neu ail-lwytho tudalen we, naill ai i ddiweddaru ei chynnwys neu i sbarduno rhai gweithredoedd.",
+            "altText": "Adnewyddu Tudalen JavaScript – Sut i Ail-lwytho Tudalen mewn JS"
+}
+
     },
     "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"
 }
