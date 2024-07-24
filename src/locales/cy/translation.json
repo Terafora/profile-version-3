@@ -18,11 +18,6 @@
             "description": "Dyma ddisgrifiad o Brosiect 3.",
             "altText": "Image of a website I've made"
         },
-
-
-
-
-
         "98": {
             "title": "Safle Proffil Sapphy Doyle",
             "description": "Dyma'r safle proffil ar gyfer Sapphy Doyle. Fe'i hadeiladwyd gan ddefnyddio HTML, CSS, JavaScript a React.",
@@ -34,46 +29,44 @@
             "altText": "Ap desg Amserydd Pomodoro a Rhestr Wirio"
         }
     },
-    "RecentPosts": "Swyddi Diweddar",
     "RecentTranslations": "Cyfieithiadau Diweddar",
     "translations": {
+        "1": {
+            "title": "Cyswllt HTML – Sut i Drosi Delwedd yn Gyswllt a Nyso Cysylltiadau y Tu Mewn i Baragraffau",
+            "description": "Bydd adegau pan fyddwch chi eisiau nyso cysylltiadau y tu mewn i baragraffau neu droi delwedd yn gyswllt. Ond sut ydych chi'n gwneud hynny mewn HTML?",
+            "altText": "Sut i droi delwedd yn gyswllt a nyso cysylltiadau y tu mewn i baragraffau"
+        },
         "2": {
-            "title": "Cyfieithiad 2",
-            "description": "Dyma ddisgrifiad o Gyfieithiad 2.",
-            "altText": "Delwedd o wefan rydw i wedi'i greu"
+            "title": "PHP Explode – Sut i Rannu Llinyn yn Array",
+            "description": "Mae'r swyddogaeth explode() PHP yn trosi llinyn i array. Rhoddir mynegeio i bob un o'r cymeriadau yn y llinyn sy'n dechrau o 0. Fel y swyddogaeth adeiledig implode(), nid yw'r swyddogaeth explode yn addasu'r data (llinyn).",
+            "altText": "Sut i ddefnyddio Explode yn PHP"
         },
         "3": {
-            "title": "Cyfieithiad 3",
-            "description": "Dyma ddisgrifiad o Gyfieithiad 3.",
-            "altText": "Delwedd o wefan rydw i wedi'i greu"
+            "title": "Gosod IP Statig yn Ubuntu – Tiwtorial Cyfeiriad IP Linux",
+            "description": "Yn y mwyafrif o ffurfweddiadau rhwydwaith, mae gweinydd DHCP y llwybrydd yn aseinio'r cyfeiriad IP yn ddeinamig yn ddiofyn. Os ydych chi am sicrhau bod eich IP system yn aros yr un peth bob tro, gallwch ei orfodi i ddefnyddio IP statig.",
+            "altText": "Sut i osod IP yn Ubuntu"
         },
-
-
-
-
-
-
-
-
-
-
-
-        "98": {
+        "4": {
+            "title": "Enghraifft JSON Stringify - Sut i ddadansoddi gwrthrych JSON gyda JavaScript",
+            "description": "Mae JSON, neu JavaScript Object Notation, o'n cwmpas ym mhobman. Os ydych wedi defnyddio ap gwe, mae'n debygol iawn bod yr ap gwe hwnnw'n defnyddio JSON i strwythuro data, ei storio, neu ei anfon rhwng gweinyddion a dyfeisiau.",
+            "altText": "Sut i ddadansoddi gwrthrych JSON gyda JavaScript"
+        },
+        "5": {
             "title": "Sut i Ddiweddaru Node a NPM i'r Fersiwn Diweddaraf",
             "description": "Mae Node yn amgylchedd rhedeg ar gyfer gweithredu cod JavaScript y tu allan i'r porwr, ar ochr y gweinydd.",
             "altText": "Sut i Ddiweddaru Node a NPM i'r Fersiwn Diweddaraf"
         },
-        "99": {
+        "6": {
             "title": "Tiwtorial Sgriptio Bash – Sgriptiau Clogyn Linux a Llinell Orchymyn i Ddechreuwyr",
             "description": "Yn Linux, mae awtomeiddio prosesau yn dibynnu'n helaeth ar sgriptio clogyn. Mae hyn yn cynnwys creu ffeil sy'n cynnwys cyfres o orchmynion y gellir eu gweithredu gyda'i gilydd.",
             "altText": "Tiwtorial Sgriptio Bash – Sgriptiau Clogyn Linux a Llinell Orchymyn i Ddechreuwyr"
         },
-        "100": {
+        "7": {
             "title": "Adnewyddu Tudalen JavaScript – Sut i Ail-lwytho Tudalen mewn JS",
             "description": "Mae JavaScript yn iaith raglennu amlbwrpas sy'n galluogi datblygwyr i greu cymwysiadau gwe deinamig ac rhyngweithiol. Un dasg gyffredin mewn datblygiad gwe yw adnewyddu neu ail-lwytho tudalen we, naill ai i ddiweddaru ei chynnwys neu i sbarduno rhai gweithredoedd.",
             "altText": "Adnewyddu Tudalen JavaScript – Sut i Ail-lwytho Tudalen mewn JS"
-}
-
+        }
     },
+    "RecentPosts": "Swyddi Diweddar",
     "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"
 }

@@ -30,45 +30,44 @@
             "altText": "Pomodoro Timer and Checklist desktop app"
         }
     },
-    "RecentPosts": "Recent Posts",
     "RecentTranslations": "Recent Translations",
     "translations":{
         "1": {
-            "title": "Translation 2",
-            "description": "This is a description of Translation 2.",
-            "altText": "Image of a website I've made"
+            "title": "HTML Link – How to Turn an Image into a Link and Nest Links Inside Paragraphs",
+            "description": "There will be times where you will want to nest links inside paragraphs or turn an image into a link. But how do you go about doing that in HTML?",
+            "altText": "How to turn an image into a link and nest links inside paragraphs"
         },
         "2": {
-            "title": "Translation 3",
-            "description": "This is a description of Translation 3.",
-            "altText": "Image of a website I've made"
+            "title": "PHP Explode – How to Split a String into an Array",
+            "description": "The PHP explode() function converts a string to an array. Each of the characters in the string is given an index that starts from 0. Like the built-in implode() function, the explode function does not modify the data (string).",
+            "altText": "How to use Explode in PHP"
         },
-
-
-
-
-
-
-
-
-
-
-
-        "98": {
+        "3": {
+            "title": "Setting a Static IP in Ubuntu – Linux IP Address Tutorial",
+            "description": "In most network configurations, the router DHCP server assigns the IP address dynamically by default. If you want to ensure that your system IP stays the same every time, you can force it to use a static IP. ",
+            "altText": "How to set an IP in Ubuntu"
+        },
+        "4": {
+            "title": "JSON Stringify Example – How to Parse a JSON Object with JS",
+            "description": "JSON, or JavaScript Object Notation, is all around us. If you've ever used a web app, there's a very good chance that it used JSON to structure, store, and transmit data between its servers and your device.",
+            "altText": "How to parse a JSON object with JavaScript"
+        },
+        "5": {
             "title": "How to Update Node and NPM to the Latest Version",
             "description": "Node is a runtime environment for executing JavaScript code outside of the browser, on the server side.",
             "altText": "How to Update Node and NPM to the Latest Version"
         },
-        "99": {
+        "6": {
             "title": "Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners",
             "description": "In Linux, process automation relies heavily on shell scripting. This involves creating a file containing a series of commands that can be executed together.",
             "altText": "Bash Scripting Tutorial – Linux Shell Script and Command Line for Beginners"
         },
-        "100": {
+        "7": {
             "title": "JavaScript Refresh Page – How to Reload a Page in JS",
             "description": "JavaScript is a versatile programming language that allows developers to create dynamic and interactive web applications. One common task in web development is to refresh or reload a web page, either to update its content or to trigger certain actions.",
             "altText": "JavaScript Refresh Page – How to Reload a Page in JS"
         }
     },
+    "RecentPosts": "Recent Posts",
     "footer": "Designed and Developed by Charlotte Stone"
 }
