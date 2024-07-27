@@ -9,21 +9,26 @@
     "RecentProjects": "Prosiectau Diweddar",
     "projects": {
         "1": {
-            "title": "Prosiect 2",
-            "description": "Dyma ddisgrifiad o Brosiect 2.",
-            "altText": "Image of a website I've made"
+            "title": "ByteWise Language Labs",
+            "description": "Dyma dudalen lanio ar gyfer safle dysgu iaith dychmygol gan ddefnyddio dyfyniadau gan gyn-gydweithwyr. Fe'i hadeiladwyd gan ddefnyddio; HTML, CSS a JavaScript.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
         },
         "2": {
-            "title": "Prosiect 3",
-            "description": "Dyma ddisgrifiad o Brosiect 3.",
-            "altText": "Image of a website I've made"
+            "title": "My Mixtape",
+            "description": "Mae hwn yn safle ar gyfer creu a rhannu mixtapes gan ddefnyddio cysylltiadau ar-lein. Fe'i hadeiladwyd gan ddefnyddio; JavaScript, Python a Django.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
         },
-        "98": {
+        "3": {
+            "title": "Sekai Experience",
+            "description": "Mae hwn yn safle ar gyfer postio a rhannu profiadau. Fe'i hadeiladwyd gan ddefnyddio; EJS, NodeJS, Express a MongoDB.",
+            "altText": "Delwedd o wefan rydw i wedi'i greu"
+        },
+        "4": {
             "title": "Safle Proffil Sapphy Doyle",
             "description": "Dyma'r safle proffil ar gyfer Sapphy Doyle. Fe'i hadeiladwyd gan ddefnyddio HTML, CSS, JavaScript a React.",
             "altText": "Delwedd o wefan rydw i wedi'i greu"
         },
-        "99": {
+        "5": {
             "title": "Amserlen Pomodoro a Rhestr Wirio'r Desg",
             "description": "Mae'r Ap Pomodoro Timer a Rhestr Wirio yn offeryn cynhyrchiant desktop a adeiladwyd gan ddefnyddio Electron, HTML, CSS, a JavaScript. Mae'n cyfuno timer Pomodoro ar gyfer rheoli amser â nodwedd rhestr wirio ar gyfer trefnu tasg.",
             "altText": "Ap desg Amserydd Pomodoro a Rhestr Wirio"

@@ -9,25 +9,26 @@
     "RecentProjects": "最近のプロジェクト",
     "projects": {
         "1": {
-            "title": "プロジェクト2",
-            "description": "これはプロジェクト2の説明です。",
-            "altText": "私が作ったウェブサイトの画像"
+            "title": "ByteWise Language Labs",
+            "description": "これは、元同僚からの引用を使用した架空の語学教育サイトのランディングページです。HTML、CSS、およびJavaScriptを使用して構築されました。",
+            "altText": "私が作成したウェブサイトの画像"
         },
         "2": {
-            "title": "プロジェクト3",
-            "description": "これはプロジェクト3の説明です。",
-            "altText": "私が作ったウェブサイトの画像"
+            "title": "My Mixtape",
+            "description": "これはオンラインリンクを使用してミックステープを作成および共有するためのサイトです。JavaScript、Python、Djangoを使用して構築されました。",
+            "altText": "私が作成したウェブサイトの画像"
         },
-
-
-
-
-        "98": {
+        "3": {
+            "title": "Sekai Experience",
+            "description": "これは、経験を投稿および共有するためのサイトです。EJS、NodeJS、Express、MongoDBを使用して構築されました。",
+            "altText": "私が作成したウェブサイトの画像"
+        },
+        "4": {
             "title": "サフィー・ドイルのプロフィールサイト",
             "description": "これはサフィー・ドイルのプロフィールサイトです。HTML、CSS、JavaScript、Reactを使用して作成されました。",
             "altText": "私が作ったウェブサイトの画像"
         },
-        "99": {
+        "5": {
             "title": "デスクトップポモドーロタイマーとチェックリスト",
             "description": "ポモドーロタイマーとチェックリストアプリケーションは、Electron、HTML、CSS、JavaScriptを使用して構築されたデスクトップ向けの生産性ツールです。時間管理のためのポモドーロタイマーとタスクの整理のためのチェックリスト機能を組み合わせています。",
             "altText": "ポモドーロタイマーとチェックリストのデスクトップアプリ"

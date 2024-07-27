@@ -1,28 +1,26 @@
 [
     {
         "id": 1,
-        "imgSrc": "path_to_image2.jpg",
-        "url": "https://github.com/Terafora/Sapphy-Doyle-Profile-Site"
+        "imgSrc": "#",
+        "url": "https://github.com/Terafora/ByteWise-Language-Labs"
     },
-
-
-
-
-
-
-
-
-
-
-
     {
-        "id": 98,
+        "id": 2,
+        "imgSrc": "#",
+        "url": "https://github.com/Terafora/My-Mixtape"
+    },
+    {
+        "id": 3,
+        "imgSrc": "#",
+        "url": "https://github.com/Terafora/sekaiexperience"
+    },
+    {
+        "id": 4,
         "imgSrc": "./pictures/SapphyDoyleProfileSite.png",
         "url": "https://github.com/Terafora/Sapphy-Doyle-Profile-Site"
-
     },
     {
-        "id": 99,
+        "id": 5,
         "imgSrc": "./pictures/pomodoroTimer.png",
         "url": "https://github.com/Terafora/desktop-pomodoro"
     }
