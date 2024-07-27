@@ -21,9 +21,9 @@ const RecentProjects = () => {
     }
 
     return (
-        <section className="row">
-            <h2>{t('RecentProjects')}</h2>
+        <section className="row g-5 mx-2">
             <div className="container">
+                <h2>{t('RecentProjects')}</h2>
                 <div id="recentProjectsCarousel" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         {groupedProjects.map((group, groupIndex) => (

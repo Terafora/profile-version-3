@@ -6,8 +6,8 @@ export default function About() {
 
     return (
         <section className="row about">
-            <h2>{t('about')}</h2>
             <div className="row g-5 mx-2">
+            <h2>{t('about')}</h2>
                 <div className="col-12 col-lg-6">
                     <h3>{t('hello')}</h3>
                     <p>{t('aboutText1')}</p>
