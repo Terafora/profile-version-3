@@ -36,14 +36,18 @@ const RecentProjects = () => {
                             </div>
                         ))}
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#recentProjectsCarousel" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#recentProjectsCarousel" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
+
+                    {/* Move the buttons below the items */}
+                    <div className="carousel-controls mt-3 text-center">
+                        <button className="carousel-control-prev" type="button" data-bs-target="#recentProjectsCarousel" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#recentProjectsCarousel" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

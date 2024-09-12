@@ -24,7 +24,7 @@ const RecentTranslations = () => {
         <section className="row">
             <h2>{t('RecentTranslations')}</h2>
             <div className="container">
-                <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="false">
+                <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         {groupedTranslations.map((group, groupIndex) => (
                             <div key={groupIndex} className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}>
@@ -36,14 +36,18 @@ const RecentTranslations = () => {
                             </div>
                         ))}
                     </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
+
+                    {/* Moved the buttons below the items */}
+                    <div className="carousel-controls mt-3 text-center">
+                        <button className="carousel-control-prev" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="prev">
+                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Previous</span>
+                        </button>
+                        <button className="carousel-control-next" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="next">
+                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span className="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>

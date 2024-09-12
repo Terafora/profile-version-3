@@ -106,12 +106,50 @@ nav {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+#recentProjectsCarousel .carousel-inner {
+    min-height: 600px;
+    height: auto;
+}
+
+.translation-card {
+    min-height: 300px;
+}
+
+#recentTranslationsCarousel .carousel-inner {
+    min-height: 500px;
+    height: auto;
+}
+
+.recent-post-card {
+    min-height: 350px;
+    overflow: hidden;
+}
+
+#recentPostsCarousel .carousel-inner {
+    min-height: 500px;
+    height: auto;
+}
+
 .card-img{
     width: 100%;
     border-radius: 10px;
     aspect-ratio: 1/1;
     object-fit: cover;
 }
+
+.carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
 
 /* Nav settings for larger screens */
 @media (min-width: 992px) {
