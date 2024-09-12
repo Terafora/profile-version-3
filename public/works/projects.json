@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "imgSrc": "#",
+        "imgSrc": "./pictures/LanguageLabs.png",
         "url": "https://github.com/Terafora/ByteWise-Language-Labs"
     },
     {
         "id": 2,
-        "imgSrc": "#",
+        "imgSrc": "./pictures/MyMixtape.png",
         "url": "https://github.com/Terafora/My-Mixtape"
     },
     {
         "id": 3,
-        "imgSrc": "#",
+        "imgSrc": "./pictures/SekaiExperience.png",
         "url": "https://github.com/Terafora/sekaiexperience"
     },
     {
