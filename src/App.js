@@ -15,16 +15,18 @@ function App() {
   const { t } = useTranslation();
 
   return (
-    <div className="App">
-      <Navbar />
-      <div className="container-fluid">
-        <MainContent />
-        <About />
-        <RecentProjects/>
-        <RecentTranslations  />
-        <RecentPosts />
-        <Contact />
-        <Footer />
+    <div className="bg">
+      <div className="App">
+        <Navbar />
+        <div className="container-fluid">
+          <MainContent />
+          <About />
+          <RecentProjects/>
+          <RecentTranslations  />
+          <RecentPosts />
+          <Contact />
+          <Footer />
+        </div>
       </div>
     </div>
   );

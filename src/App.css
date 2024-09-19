@@ -6,11 +6,42 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background: linear-gradient(to bottom, #0A2353, #5B58EB);
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     color: #fff;
+}
+
+.bg {
+    background: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(220, 152, 33, 1) 100%);
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.App {
+    background: radial-gradient(circle, rgba(244, 177, 54, 0.3) 0%, rgba(220, 152, 33, 1) 100%);
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+#root {
+    background-image: url("../public/pictures/bg1.svg");
+    background-size: 10%;
+    animation: pan 1260s linear infinite;
+    animation-play-state: running;
+    z-index: -2;
+}
+
+@keyframes pan {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 1600% 1600%;
+    }
 }
 
 h1, h2, h3 {
