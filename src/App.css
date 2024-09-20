@@ -136,11 +136,11 @@ nav {
     padding: 0.2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: rotate(5deg);
+    transform: rotate(6deg);
 }
 
 .about-bg-layer2{
-    background-color: #FFA814;
+    background: linear-gradient(90deg, #FFB116, #FF5700);
     border-radius: 10px;
     padding: 0.2rem;
     transform: rotate(-2deg);
@@ -150,7 +150,7 @@ nav {
     background: radial-gradient(circle, #d4c098, #805e2b);
     border-radius: 10px;
     padding: 2rem;
-    transform: rotate(-3deg);
+    transform: rotate(-4deg);
 }
 
 
