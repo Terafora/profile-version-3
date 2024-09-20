@@ -129,6 +129,7 @@ nav {
     justify-content: center;
     padding: 2rem 0;
     min-height: 100vh;
+    margin-bottom: 10rem;
 }
 
 .about-bg-layer1 {
@@ -268,5 +269,20 @@ nav {
     .language-item:hover {
         background: rgba(0, 0, 0, 0.1);
         pointer: pointer;
+    }
+
+    .main-container {
+        margin-bottom: -10rem;
+    }
+
+    .about {
+        position: relative;
+    }
+
+    .anime-picture{
+        position: absolute;
+        transform: rotate(-3deg);
+        right: -50px;
+        top:-150%;
     }
 }
