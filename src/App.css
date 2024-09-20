@@ -46,6 +46,7 @@ body {
 
 h1, h2, h3 {
     font-family: "Varela Round", sans-serif;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 h2 {
@@ -56,7 +57,7 @@ h2 {
 }
 
 nav {
-    background: linear-gradient(to right, #5B58EB, #BB63FF);
+    background: linear-gradient(to right, #00A26D, #00DBA1);
 }
 
 .lr-pad-none {
@@ -102,7 +103,7 @@ nav {
 }
 
 .btn-learn {
-    background: #5B58EB;
+    background: #00a26d;
     color:#fff;
     border: none;
     border-radius: 5px;
@@ -116,7 +117,7 @@ nav {
 }
 
 .btn-learn:hover {
-    background: #BB63FF;
+    background: #00dba1;
 }
 
 /* About Section */
@@ -200,7 +201,7 @@ nav {
         top: 50%; 
         transform: translateY(-50%);
         left: 2vw;
-        background: linear-gradient(to bottom right, #5B58EB, #BB63FF);
+        background: linear-gradient(to bottom right, #00A26D, #00DBA1);
         color: #fff;
         padding: 1rem 0;
         border-radius: 5px;
