@@ -10,9 +10,9 @@ export default function About() {
                 <h2 className="my-5">{t('about')}</h2>
                 <div className="about-bg-layer1">
                     <div className="about-bg-layer2">
-                        <img src="./pictures/CStone.png" className="img-fluid anime-picture" alt="Charlotte Stone" />
                         <div className="about-bg-layer3">
                             <div className="row">
+                                <img src="./pictures/CStone.png" className="img-fluid anime-picture" alt="Charlotte Stone" />
                                 <div className="col-12 d-flex justify-content-center align-items-center py-5 px-5">
                                     <div>
                                         <h3>{t('hello')}</h3>

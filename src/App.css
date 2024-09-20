@@ -138,6 +138,7 @@ nav {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     transform: rotate(6deg);
+    position: relative;
 }
 
 .about-bg-layer2{
@@ -146,6 +147,7 @@ nav {
     padding: 0.2rem;
     transform: rotate(-2deg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .about-bg-layer3{
@@ -154,6 +156,7 @@ nav {
     padding: 2rem;
     transform: rotate(-4deg);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 
@@ -272,17 +275,25 @@ nav {
     }
 
     .main-container {
-        margin-bottom: -10rem;
+        margin-bottom: 5rem;
     }
 
     .about {
         position: relative;
+        z-index: 1;
+    }
+
+    .about h2 {
+        font-size: 5rem;
     }
 
     .anime-picture{
         position: absolute;
-        transform: rotate(-3deg);
-        right: -50px;
-        top:-150%;
+        min-height: 500px;
+        max-height: 500px;
+        width: auto;
+        right: 0;
+        top: -500px;
+        z-index: -1;
     }
 }
