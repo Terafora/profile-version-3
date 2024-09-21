@@ -5,3 +5,14 @@
 ## Summary
 
 This is an updated portfolio for my ongoing work in development and translation work. I aim not only to have this portfolio be a portayal of my work but also an active blog to keep my followers up to date.
+
+## Technologies
+
+- HTML
+- CSS
+- JavaScript
+- ReactJS
+- i18n
+- ChatGPT / Dall-E
+- Figma / Adobe Photoshop
+
