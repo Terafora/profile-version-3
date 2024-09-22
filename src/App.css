@@ -232,7 +232,12 @@ nav {
         top: 50%; 
         transform: translateY(-50%);
         left: 2vw;
-        background: linear-gradient(to bottom right, #00A26D, #00DBA1);
+        background-color: #121212;
+        background-image: 
+            linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
+            linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+        background-size: 8px 8px;
+        background-repeat: repeat;
         color: #fff;
         padding: 1rem 0;
         border-radius: 5px;
@@ -259,7 +264,12 @@ nav {
     }
 
     .language-menu {
-        background: linear-gradient(to right, #5B58EB, #BB63FF);
+        background-color: #121212;
+        background-image: 
+            linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
+            linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+        background-size: 8px 8px;
+        background-repeat: repeat;
         border: none;
         border-radius: 5px;
         drop-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
