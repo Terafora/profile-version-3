@@ -30,7 +30,8 @@ body {
 #root {
     background-image: url("../public/pictures/bg1.svg");
     background-size: 10%;
-    animation: pan 1260s linear infinite;
+    background-repeat: repeat;
+    animation: pan 180s linear infinite;
     animation-play-state: running;
     z-index: -2;
 }
@@ -40,7 +41,7 @@ body {
         background-position: 0% 0%;
     }
     100% {
-        background-position: 1600% 1600%;
+        background-position: 200% 0%;
     }
 }
 
