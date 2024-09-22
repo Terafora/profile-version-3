@@ -104,9 +104,9 @@ nav {
 }
 
 .btn-learn {
-    background: #00a26d;
+    background: #121212;
     color:#fff;
-    border: none;
+    border: solid 5px #FFDC35;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     font-size: 1rem;
@@ -118,7 +118,9 @@ nav {
 }
 
 .btn-learn:hover {
-    background: #00dba1;
+    background: #fff;
+    color: #121212;
+    border-color: transparent;
 }
 
 /* About Section */

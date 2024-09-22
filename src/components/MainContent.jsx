@@ -12,7 +12,8 @@ export default function MainContent() {
                         <h1 className="headline-one">{t('name')}</h1>
                         <h2 className="lead">{t('title')}</h2>
                         <br></br>
-                        <button className="btn-learn px-5 py-3" onClick={() => {}}>{t('learnMore')}</button>
+                        <button className="btn-learn px-5 py-3 mx-2" onClick={() => {}}>{t('learnMore')}</button>
+                        <button className="btn-learn px-5 py-3 mx-2" onClick={() => {}}>{t('contact')}</button>
                     </div>
                 </div>
             </div>
