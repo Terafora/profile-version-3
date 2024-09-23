@@ -31,7 +31,7 @@ export default function About() {
                                             onClick={handleNextText} 
                                             className="next-text-button"
                                         >
-                                            <i class="fa-solid fa-forward"></i>
+                                            <i class="fa-solid fa-forward fa-beat"></i>
                                         </p>
                                     </div>
                                 </div>
