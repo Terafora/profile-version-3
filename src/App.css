@@ -255,10 +255,11 @@ nav {
         color: #fff;
         text-decoration: none;
         font-size: 1.5rem;
+        text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
 
     .side-nav .nav-link:hover {
-        color: #ddd;
+        color: #FFDC35;
     }
 
     .App {
@@ -280,11 +281,13 @@ nav {
 
     .language-item {
         color: #fff;
+        font-weight: 700;
     }
 
     .language-item:hover {
         background: rgba(0, 0, 0, 0.1);
-        pointer: pointer;
+        cursor: pointer;
+        color: #FFDC35;
     }
 
     .main-container {
