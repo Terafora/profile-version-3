@@ -6,10 +6,8 @@ export default function InfoBar() {
 
     return (
         <div className="infobar">
-            <div className="row g-5 mx-2">
-                <div className="col-6">
-                    <p>{t('infoBar')}</p>
-                </div>
+            <div className="scroll-text">
+                <p>{t('infoBar')}</p>
             </div>
         </div>
     );
