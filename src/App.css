@@ -134,6 +134,7 @@ nav {
     padding: 2rem 0;
     min-height: 100vh;
     margin-bottom: 10rem;
+    font-size: 1.2rem;
 }
 
 .about-bg-layer1 {
@@ -169,6 +170,20 @@ nav {
     max-width: 100%;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.next-text-button {
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 2rem;
+    color: #FFB116;
+    cursor: pointer;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.next-text-button:hover {
+    color: #FFDC35;
 }
 
 // Recent Projects Section

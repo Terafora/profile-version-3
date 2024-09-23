@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export default function About() {
     const { t } = useTranslation();
+    const [currentTextIndex, setCurrentTextIndex] = useState(0);
+
+    const aboutTexts = [
+        t('aboutText1'),
+        t('aboutText2'),
+    ];
+
+    const handleNextText = () => {
+        setCurrentTextIndex((prevIndex) => (prevIndex + 1) % aboutTexts.length);
+    };
 
     return (
         <section className="row about">
@@ -16,8 +26,13 @@ export default function About() {
                                 <div className="col-12 d-flex justify-content-center align-items-center py-5 px-5">
                                     <div>
                                         <h3>{t('hello')}</h3>
-                                        <p>{t('aboutText1')}</p>
-                                        <p>{t('aboutText2')}</p>
+                                        <p>{aboutTexts[currentTextIndex]}</p>
+                                        <p
+                                            onClick={handleNextText} 
+                                            className="next-text-button"
+                                        >
+                                            <i class="fa-solid fa-forward"></i>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
