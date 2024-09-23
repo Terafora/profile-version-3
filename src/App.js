@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
+import InfoBar from './components/InfoBar';
 import MainContent from './components/MainContent';
 import Footer from './components/Footer';
 import RecentProjects from './components/RecentProjects';
@@ -18,6 +19,7 @@ function App() {
     <div className="bg">
       <div className="App">
         <Navbar />
+        <InfoBar className="infobar"/>
         <div className="container-fluid">
           <MainContent />
           <About />
