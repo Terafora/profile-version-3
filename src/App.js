@@ -10,6 +10,7 @@ import RecentTranslations from './components/RecentTranslations';
 import About from './components/About';
 import RecentPosts from './components/RecentPosts';
 import Contact from './components/Contact';
+import Wave from './components/Wave';
 import './i18n';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
 
   return (
     <div className="bg">
+      <Wave />
       <div className="App">
         <Navbar />
         <InfoBar className="infobar"/>
