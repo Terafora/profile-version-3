@@ -25,9 +25,9 @@ function App() {
           <RecentProjects/>
           <RecentTranslations  />
           <Contact />
-          <Footer />
-        </div>
+        </div>  
       </div>
+      <Footer />
     </div>
   );
 }

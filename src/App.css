@@ -8,6 +8,7 @@ body {
     box-sizing: border-box;
     color: #fff;
     position: relative;
+    overflow-x: hidden;
 }
 
 .bg {
@@ -288,6 +289,22 @@ h2 {
   100% {
     transform: translateX(-5%);
   }
+}
+
+footer {
+    background-color: #121212;
+    background-image: 
+        linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100vw;
 }
 
 /* Nav settings for larger screens */
