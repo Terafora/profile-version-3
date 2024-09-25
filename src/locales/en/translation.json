@@ -76,5 +76,9 @@
     },
     "RecentPosts": "Recent Posts",
     "showMore": "Show More",
-    "footer": "Designed and Developed by Charlotte Stone"
+    "footer": "Designed and Developed by Charlotte Stone",
+    "GithubIcon": "Github Icon",
+    "freeCodeCampIcon": "freeCodeCamp Icon",
+    "LinkedInIcon": "LinkedIn Icon",
+    "blueSkyIcon": "Blue Sky Icon"
 }

@@ -76,5 +76,9 @@
     },
     "RecentPosts": "Swyddi Diweddar",
     "showMore": "Dangos mwy",
-    "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone"
+    "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone",
+    "GithubIcon": "Eicon Github",
+    "freeCodeCampIcon": "Eicon freeCodeCamp",
+    "LinkedInIcon": "Eicon LinkedIn",
+    "blueSkyIcon": "Eicon Blue Sky"
 }

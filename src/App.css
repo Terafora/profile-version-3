@@ -307,6 +307,18 @@ footer {
     width: 100vw;
 }
 
+footer p {
+    margin: auto;
+    display: block;
+}
+
+.footer-icons {
+    font-size: 2rem;
+    margin: 0.5rem;
+    drop-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
 /* Nav settings for larger screens */
 @media (min-width: 992px) {
 

@@ -78,5 +78,9 @@
     },
     "RecentPosts": "最近の投稿",
     "showMore": "さらに表示",
-    "footer": "シャーロット・ストーンによってデザインされ、開発されました"
+    "footer": "シャーロット・ストーンによってデザインされ、開発されました",
+    "GithubIcon": "Github アイコン",
+    "freeCodeCampIcon": "freeCodeCamp アイコン",
+    "LinkedInIcon": "LinkedIn アイコン",
+    "blueSkyIcon": "Blue Sky アイコン"
 }
