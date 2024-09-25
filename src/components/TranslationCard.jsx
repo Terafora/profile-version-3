@@ -1,5 +1,4 @@
 import React from 'react';
-import Wave from './Wave';
 import { useTranslation } from 'react-i18next';
 
 const TranslationCard = ({ translation }) => {
@@ -7,7 +6,6 @@ const TranslationCard = ({ translation }) => {
 
     return (
         <div className="card card-appearance wave-container col-lg-3 col-md-6 col-sm-9">
-            <Wave />
             <img src={translation.imgSrc} className="Recent-Work-Img card-img" alt={translation.altText} />
             <div class="wave wave1"></div>
             <div class="wave wave2"></div>

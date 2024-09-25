@@ -32,7 +32,6 @@ const RecentTranslations = () => {
 
     return (
         <section className="row">
-            <Wave />
             <h2>{t('RecentTranslations')}</h2>
             <div className="container">
                 <div className="row g-5 mx-2 justify-content-around">
@@ -52,7 +51,7 @@ const RecentTranslations = () => {
                             className="btn btn-primary"
                             onClick={handleShowMore}
                         >
-                            {t('Show More')}
+                            {t('showMore')}
                         </button>
                     </div>
                 )}

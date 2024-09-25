@@ -6,7 +6,7 @@ const ProjectCard = ({ project }) => {
     const { t } = useTranslation();
 
     return (
-        <div className="card card-appearance wave-container justify-content-center col-lg-3 col-md-6 col-sm-9">
+        <div className="card card-appearance justify-content-center col-lg-3 col-md-6 col-sm-9">
             <Wave />
             <img src={project.imgSrc} className="Recent-Work-Img card-img" alt={project.altText} />
             <h4 className="text-center">{t(`projects.${project.id}.title`)}</h4>
@@ -15,7 +15,6 @@ const ProjectCard = ({ project }) => {
             <div class="wave wave3"></div>
             <p>{t(`projects.${project.id}.description`)}</p>
             <a href={project.url} className="btn btn-primary" target='_blank' rel="noreferrer">{t('learnMore')}</a>
-            
         </div>
     );
 };

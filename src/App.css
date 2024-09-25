@@ -196,6 +196,7 @@ h2 {
 }
 
 .card-appearance {
+    position: relative;
     min-height: 500px;
     overflow: hidden;
     background: linear-gradient(to bottom, #FFDC35, #FFB116, #FF5700);
@@ -239,19 +240,6 @@ h2 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.carousel-controls {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    position: relative;
-    display: inline-block;
-    width: auto;
-}
-
 /* Wave Animation */
 .wave {
   position: absolute;
@@ -284,15 +272,19 @@ h2 {
 /* Wave shape using clip-path */
 .wave {
   clip-path: url(#wave); /* Reference to the SVG clip path */
+  overflow: hidden;
 }
 
 /* Animation keyframes */
 @keyframes waveAnimation {
   0% {
-    transform: translateX(0);
+    transform: translateX(-5%);
+  }
+  50% {
+    transform: translateX(-50%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-5%);
   }
 }
 

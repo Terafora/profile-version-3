@@ -49,7 +49,7 @@ const RecentProjects = () => {
                             className="btn btn-primary"
                             onClick={handleNext}
                         >
-                            {t('Show More')}
+                            {t('showMore')}
                         </button>
                     </div>
                 )}
