@@ -38,15 +38,10 @@
     },
     "RecentTranslations": "最近の翻訳",
     "translations": {
-        "1": {
-            "title": "HTML リンク - 画像をリンクに変換し、段落内にリンクをネストする方法",
-            "description": "段落内にリンクをネストしたり、画像をリンクに変換したりしたい時があります。しかし、HTMLでそれをどうやって行いますか？",
-            "altText": "画像をリンクに変換し、段落内にリンクをネストする方法"
-        },
         "2": {
-            "title": "PHP の Explode – 文字列を配列に分割する方法",
-            "description": "PHPのexplode()関数は、文字列を配列に変換します。文字列内の各文字には、0から始まるインデックスが与えられます。組み込みのimplode()関数のように、explode関数はデータ（文字列）を変更しません。",
-            "altText": "PHPでExplodeを使用する方法"
+            "title": "私の freeCodeCamp プロフィール",
+            "description": "私の翻訳の詳細は freeCodeCamp でご覧ください。",
+            "altText": "私の翻訳の詳細は freeCodeCamp でご覧ください。"
         },
         "3": {
             "title": "Ubuntu で静的 IP を設定する方法 – Linux IP アドレスチュートリアル",

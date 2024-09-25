@@ -6,6 +6,7 @@ import TranslationCard from './TranslationCard';
 const RecentTranslations = () => {
     const { t } = useTranslation();
     const [translations, setTranslations] = useState([]);
+    const [visibleGroups, setVisibleGroups] = useState(1); // State to control how many groups to show
 
     useEffect(() => {
         fetch('./works/translations.json')
@@ -16,41 +17,45 @@ const RecentTranslations = () => {
 
     const reversedTranslations = [...translations].reverse();
 
+    // Group translations in sets of 3
     const groupedTranslations = [];
     for (let i = 0; i < reversedTranslations.length; i += 3) {
         groupedTranslations.push(reversedTranslations.slice(i, i + 3));
     }
+
+    // Function to show more groups when button is clicked
+    const handleShowMore = () => {
+        if (visibleGroups < groupedTranslations.length) {
+            setVisibleGroups(visibleGroups + 1);
+        }
+    };
 
     return (
         <section className="row">
             <Wave />
             <h2>{t('RecentTranslations')}</h2>
             <div className="container">
-                <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        {groupedTranslations.map((group, groupIndex) => (
-                            <div key={groupIndex} className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}>
-                                <div className="row g-5 mx-2 justify-content-around">
-                                    {group.map((translation) => (
-                                        <TranslationCard key={translation.id} translation={translation} />
-                                    ))}
-                                </div>
+                <div className="row g-5 mx-2 justify-content-around">
+                    {groupedTranslations.slice(0, visibleGroups).map((group, groupIndex) => (
+                        <div key={groupIndex} className={`mb-4`}>
+                            <div className="row g-5 mx-2 justify-content-around">
+                                {group.map((translation) => (
+                                    <TranslationCard key={translation.id} translation={translation} />
+                                ))}
                             </div>
-                        ))}
-                    </div>
-
-                    {/* Moved the buttons below the items */}
-                    <div className="carousel-controls mt-3 text-center">
-                        <button className="carousel-control-prev" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#recentTranslationsCarousel" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
-                        </button>
-                    </div>
+                        </div>
+                    ))}
                 </div>
+                {visibleGroups < groupedTranslations.length && (
+                    <div className="text-center mt-4">
+                        <button
+                            className="btn btn-primary"
+                            onClick={handleShowMore}
+                        >
+                            {t('Show More')}
+                        </button>
+                    </div>
+                )}
             </div>
         </section>
     );

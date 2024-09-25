@@ -1,13 +1,8 @@
 [
     {
-        "id": 1,
-        "imgSrc": "./pictures/markus-spiske--dbOrdtrR1A-unsplash.jpg",
-        "url": "https://www.freecodecamp.org/japanese/news/how-to-turn-text-and-images-into-links-using-html/"
-    },
-    {
         "id": 2,
-        "imgSrc": "./pictures/explode-1.png",
-        "url": "https://www.freecodecamp.org/japanese/news/php-explode-how-to-split-a-string-into-an-array/"
+        "imgSrc": "./pictures/freeCodeCamp.png",
+        "url": "https://www.freecodecamp.org/japanese/news/author/charlotte-stone/"
     },
     {
         "id": 3,

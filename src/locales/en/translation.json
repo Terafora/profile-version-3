@@ -38,15 +38,10 @@
     },
     "RecentTranslations": "Recent Translations",
     "translations":{
-        "1": {
-            "title": "HTML Link – How to Turn an Image into a Link and Nest Links Inside Paragraphs",
-            "description": "There will be times where you will want to nest links inside paragraphs or turn an image into a link. But how do you go about doing that in HTML?",
-            "altText": "How to turn an image into a link and nest links inside paragraphs"
-        },
         "2": {
-            "title": "PHP Explode – How to Split a String into an Array",
-            "description": "The PHP explode() function converts a string to an array. Each of the characters in the string is given an index that starts from 0. Like the built-in implode() function, the explode function does not modify the data (string).",
-            "altText": "How to use Explode in PHP"
+            "title": "My freeCodeCamp Profile",
+            "description": "View more of my translations over on freeCodeCamp.",
+            "altText": "View more of my translations over on freeCodeCamp."
         },
         "3": {
             "title": "Setting a Static IP in Ubuntu – Linux IP Address Tutorial",

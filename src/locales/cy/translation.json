@@ -38,15 +38,10 @@
     },
     "RecentTranslations": "Cyfieithiadau Diweddar",
     "translations": {
-        "1": {
-            "title": "Cyswllt HTML – Sut i Drosi Delwedd yn Gyswllt a Nyso Cysylltiadau y Tu Mewn i Baragraffau",
-            "description": "Bydd adegau pan fyddwch chi eisiau nyso cysylltiadau y tu mewn i baragraffau neu droi delwedd yn gyswllt. Ond sut ydych chi'n gwneud hynny mewn HTML?",
-            "altText": "Sut i droi delwedd yn gyswllt a nyso cysylltiadau y tu mewn i baragraffau"
-        },
         "2": {
-            "title": "PHP Explode – Sut i Rannu Llinyn yn Array",
-            "description": "Mae'r swyddogaeth explode() PHP yn trosi llinyn i array. Rhoddir mynegeio i bob un o'r cymeriadau yn y llinyn sy'n dechrau o 0. Fel y swyddogaeth adeiledig implode(), nid yw'r swyddogaeth explode yn addasu'r data (llinyn).",
-            "altText": "Sut i ddefnyddio Explode yn PHP"
+            "title": "Fy Mhroffil freeCodeCamp",
+            "description": "Gweld mwy o fy nghyfieithiadau ar freeCodeCamp.",
+            "altText": "Gweld mwy o fy nghyfieithiadau ar freeCodeCamp."
         },
         "3": {
             "title": "Gosod IP Statig yn Ubuntu – Tiwtorial Cyfeiriad IP Linux",
