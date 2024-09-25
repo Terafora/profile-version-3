@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import Wave from './Wave';
 import TranslationCard from './TranslationCard';
 
 const RecentTranslations = () => {
@@ -22,6 +23,7 @@ const RecentTranslations = () => {
 
     return (
         <section className="row">
+            <Wave />
             <h2>{t('RecentTranslations')}</h2>
             <div className="container">
                 <div id="recentTranslationsCarousel" className="carousel slide" data-bs-ride="carousel">

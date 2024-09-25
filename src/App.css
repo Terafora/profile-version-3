@@ -58,8 +58,17 @@ h2 {
     margin-bottom: 1rem;
 }
 
-nav {
-    background: linear-gradient(to right, #00A26D, #00DBA1);
+.navbar {
+    background-color: #121212 !important;
+        background-image: 
+            linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
+            linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+        background-size: 8px 8px;
+        background-repeat: repeat;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 16 16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' d='M1 2.75h14M1 8h14M1 13.25h14'/%3E%3C/svg%3E");
 }
 
 .lr-pad-none {
@@ -95,13 +104,6 @@ nav {
     font-weight: 500;
     font-style: normal;
     margin-bottom: 1rem;
-}
-
-.card {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 2 2 10px rgba(241, 90, 33, 0.5);
-    background: linear-gradient(to bottom-right, rgb(63, 165, 253), rgb(78, 219, 194));
 }
 
 .btn-learn {
@@ -189,35 +191,40 @@ nav {
 // Recent Projects Section
 
 #recentProjectsCarousel .carousel-inner {
-    min-height: 600px;
+    min-height: 700px;
     height: auto;
 }
 
 .card-appearance {
     min-height: 500px;
     overflow: hidden;
-    background: radial-gradient(circle, #d4c098, #805e2b);
+    background: linear-gradient(to bottom, #FFDC35, #FFB116, #FF5700);
 }
 
 .translation-card {
     min-height: 300px;
-    background: linear-gradient(90deg, #FFB116, #FF5700);
 }
 
 #recentTranslationsCarousel .carousel-inner {
-    min-height: 500px;
+    min-height: 600px;
     height: auto;
 }
 
 .recent-post-card {
     min-height: 350px;
     overflow: hidden;
-    background-color: linear-gradient(90deg, #FFB116, #FF5700);
 }
 
 #recentPostsCarousel .carousel-inner {
-    min-height: 500px;
+    min-height: 600px;
     height: auto;
+}
+
+.card {
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .card-img{
@@ -226,6 +233,10 @@ nav {
     object-fit: cover;
     max-height: 10rem;
     max-width: 10rem;
+    margin: 1rem auto;
+    border: #fff 5px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .carousel-controls {
@@ -241,6 +252,49 @@ nav {
     width: auto;
 }
 
+/* Wave Animation */
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 200%;
+  height: 70%;
+  background: rgba(255, 255, 255, 0.1);
+  opacity: 0.8;
+  transform: translateX(0);
+}
+
+/* Individual wave layers */
+.wave.wave1 {
+  animation: waveAnimation 10s linear infinite;
+  opacity: 0.7;
+}
+
+.wave.wave2 {
+  animation: waveAnimation 15s linear infinite reverse;
+  opacity: 0.6;
+  bottom: -5%;
+}
+
+.wave.wave3 {
+  animation: waveAnimation 20s linear infinite;
+  opacity: 0.2;
+  bottom: -10%;
+}
+
+/* Wave shape using clip-path */
+.wave {
+  clip-path: url(#wave); /* Reference to the SVG clip path */
+}
+
+/* Animation keyframes */
+@keyframes waveAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
 
 /* Nav settings for larger screens */
 @media (min-width: 992px) {
@@ -379,11 +433,4 @@ nav {
         z-index: -1;
     }
 
-
-
-    .card-img {
-    border: #fff 5px solid;
-    border-radius: 50%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    }
 }
