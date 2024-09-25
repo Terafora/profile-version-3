@@ -1,26 +1,31 @@
 [
     {
         "id": 1,
+        "imgSrc": "./pictures/github.png",
+        "url": "https://github.com/Terafora"
+    },
+    {
+        "id": 2,
         "imgSrc": "./pictures/LanguageLabs.png",
         "url": "https://github.com/Terafora/ByteWise-Language-Labs"
     },
     {
-        "id": 2,
+        "id": 3,
         "imgSrc": "./pictures/mmtref.png",
         "url": "https://github.com/Terafora/My-Mixtape"
     },
     {
-        "id": 3,
+        "id": 4,
         "imgSrc": "./pictures/SekaiExperience.png",
         "url": "https://github.com/Terafora/sekaiexperience"
     },
     {
-        "id": 4,
+        "id": 5,
         "imgSrc": "./pictures/SapphyDoyleProfileSite.png",
         "url": "https://github.com/Terafora/Sapphy-Doyle-Profile-Site"
     },
     {
-        "id": 5,
+        "id": 6,
         "imgSrc": "./pictures/pomodoroTimer.png",
         "url": "https://github.com/Terafora/desktop-pomodoro"
     }
