@@ -5,6 +5,7 @@ import ProjectCard from './ProjectCard';
 const RecentProjects = () => {
     const { t } = useTranslation();
     const [projects, setProjects] = useState([]);
+    const [visibleGroups, setVisibleGroups] = useState(1);
 
     useEffect(() => {
         fetch('./works/projects.json')
@@ -15,40 +16,43 @@ const RecentProjects = () => {
 
     const reversedProjects = [...projects].reverse();
 
+    // Calculate the total number of groups (each group contains up to 3 projects)
+    const totalGroups = Math.ceil(reversedProjects.length / 3);
     const groupedProjects = [];
     for (let i = 0; i < reversedProjects.length; i += 3) {
         groupedProjects.push(reversedProjects.slice(i, i + 3));
     }
 
+    const handleNext = () => {
+        // Check if there are more groups to display
+        if (visibleGroups < totalGroups) {
+            setVisibleGroups(visibleGroups + 1);
+        }
+    };
+
     return (
         <section className="row g-5 mx-2">
             <div className="container">
                 <h2>{t('RecentProjects')}</h2>
-                <div id="recentProjectsCarousel" className="carousel slide" data-bs-ride="carousel">
-                    <div className="carousel-inner">
-                        {groupedProjects.map((group, groupIndex) => (
-                            <div key={groupIndex} className={`carousel-item ${groupIndex === 0 ? 'active' : ''}`}>
-                                <div className="row g-5 mx-2 justify-content-around">
-                                    {group.map((project) => (
-                                        <ProjectCard key={project.id} project={project} />
-                                    ))}
-                                </div>
-                            </div>
-                        ))}
+                {groupedProjects.slice(0, visibleGroups).map((group, index) => (
+                    <div key={`group-${index}`} className={`${index === 0 ? 'active' : ''}`}>
+                        <div className="row g-5 mx-2 justify-content-around">
+                            {group.map((project) => (
+                                <ProjectCard key={project.id} project={project} />
+                            ))}
+                        </div>
                     </div>
-
-                    {/* Move the buttons below the items */}
-                    <div className="carousel-controls mt-3 text-center">
-                        <button className="carousel-control-prev" type="button" data-bs-target="#recentProjectsCarousel" data-bs-slide="prev">
-                            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Previous</span>
-                        </button>
-                        <button className="carousel-control-next" type="button" data-bs-target="#recentProjectsCarousel" data-bs-slide="next">
-                            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span className="visually-hidden">Next</span>
+                ))}
+                {visibleGroups < totalGroups && (
+                    <div className="text-center mt-4">
+                        <button
+                            className="btn btn-primary"
+                            onClick={handleNext}
+                        >
+                            {t('Show More')}
                         </button>
                     </div>
-                </div>
+                )}
             </div>
         </section>
     );
