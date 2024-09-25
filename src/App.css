@@ -118,6 +118,7 @@ h2 {
     font-weight: 700;
     font-size: 1.5em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
 }
 
 .btn-learn:hover {
@@ -198,6 +199,7 @@ h2 {
 .card-appearance {
     position: relative;
     min-height: 500px;
+    padding: 3rem 1rem;
     overflow: hidden;
     background: linear-gradient(to bottom, #FFDC35, #FFB116, #FF5700);
 }

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import Wave from './Wave';
 import TranslationCard from './TranslationCard';
 
 const RecentTranslations = () => {
@@ -48,7 +47,7 @@ const RecentTranslations = () => {
                 {visibleGroups < groupedTranslations.length && (
                     <div className="text-center mt-4">
                         <button
-                            className="btn btn-primary"
+                            className="btn btn-learn"
                             onClick={handleShowMore}
                         >
                             {t('showMore')}

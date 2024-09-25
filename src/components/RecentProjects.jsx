@@ -46,7 +46,7 @@ const RecentProjects = () => {
                 {visibleGroups < totalGroups && (
                     <div className="text-center mt-4">
                         <button
-                            className="btn btn-primary"
+                            className="btn btn-learn"
                             onClick={handleNext}
                         >
                             {t('showMore')}
