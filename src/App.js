@@ -9,6 +9,7 @@ import RecentProjects from './components/RecentProjects';
 import RecentTranslations from './components/RecentTranslations';
 import About from './components/About';
 import Contact from './components/Contact';
+import Technologies from './components/Technologies'; 
 import './i18n';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <div className="container-fluid">
           <MainContent />
           <About />
+          <Technologies />
           <RecentProjects/>
           <RecentTranslations  />
           <Contact />

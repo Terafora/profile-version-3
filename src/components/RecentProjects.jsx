@@ -31,7 +31,7 @@ const RecentProjects = () => {
     };
 
     return (
-        <section className="row g-5 mx-2">
+        <section className="row g-5 mx-2 recent-projects">
             <div className="container">
                 <h2>{t('RecentProjects')}</h2>
                 {groupedProjects.slice(0, visibleGroups).map((group, index) => (
