@@ -226,8 +226,18 @@ h2 {
 
 /* Technologies Section */
 
+.tech-bar-container {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    margin-bottom: 10rem;
+}
+
 #tech-bar {
-    width: 100%; 
+    width: 100vw;
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%);
     padding: 2rem 0;
     background-color: #121212;
     background-image: 
@@ -235,15 +245,12 @@ h2 {
         linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
     background-size: 8px 8px;
     background-repeat: repeat;
-    border: #FFB116 10px solid;
-    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    margin-bottom: 10rem;
-    position: relative;
-    transform: skew(-10deg);
+    margin-bottom: 15rem;
     overflow: hidden;
     max-height: 25rem;
 }
+
 
 .scroll-tech {
     display: flex;
@@ -266,6 +273,7 @@ h2 {
 .tech-icons {
     height: 16rem;
     margin-left: 1rem;
+
     flex-shrink: 0;
 }
 
@@ -520,5 +528,49 @@ footer p {
         right: 0;
         top: -500px;
         z-index: -1;
+    }
+
+    #tech-bar {
+    width: 100%; 
+    padding: 2rem 0;
+    background-color: #121212;
+    background-image: 
+        linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    border: #FFB116 10px solid;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 10rem;
+    position: relative;
+    transform: translateX(-50%) skew(-10deg);
+    overflow: hidden;
+    max-height: 25rem;
+}
+
+.scroll-tech {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    white-space: nowrap;
+    animation: scroll-tech 25s linear infinite;
+}
+
+    /* Keyframes for scrolling effect */
+    @keyframes scroll-tech {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(-323.3rem); 
+        }
+    }
+
+    .tech-icons {
+        height: 16rem;
+        margin-left: 1rem;
+        transform: skew(10deg);
+        flex-shrink: 0;
     }
 }
