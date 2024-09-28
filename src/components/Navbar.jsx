@@ -20,31 +20,50 @@ const LanguageSwitcher = () => {
 export default function Navbar() {
     const { t } = useTranslation();
 
+        const handleSmoothScroll = (e, targetId) => {
+        e.preventDefault(); // Prevent the default anchor behavior
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            // Scroll with an offset
+            const offsetPosition = targetElement.offsetTop - 90;
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        }
+    };
+
     return (
         <>
             {/* Navbar for large screens */}
             <nav className="d-none d-lg-block lr-pad-none">
                 <ul className="navbar-nav side-nav">
                     <li className="nav-item">
-                        <a className="nav-link" href="#"><i className="fa-solid fa-house"></i></a>
+                        <a className="nav-link" href="#" onClick={(e) => handleSmoothScroll(e, 'Home')}>
+                            <img src="./pictures/icons/HomeIcon.svg" alt="Home Button"/>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"><i className="fa-solid fa-user"></i></a>
+                        <a className="nav-link" href="#About" onClick={(e) => handleSmoothScroll(e, 'About')}>
+                            <img src="./pictures/icons/AboutIcon.svg" alt="About Button"/>
+                        </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#"><i className="fa-solid fa-tag"></i></a>
+                        <a className="nav-link" href="#" onClick={(e) => handleSmoothScroll(e, 'SomeOtherSection')}>
+                            <i className="fa-solid fa-tag"></i>
+                        </a>
                     </li>
                     <li className="nav-item dropdown">
                         <a className="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i className="fa-regular fa-comment"></i>
+                            <img src="./pictures/icons/LanguageIcon.svg" alt="Language Button"/>
                         </a>
                         <LanguageSwitcher />
                     </li>
                 </ul>
             </nav>
 
-            {/* Navbar for small and medium screens */}
-            <nav className="navbar navbar-expand-lg bg-body-tertiary d-lg-none w-100 lr-pad-none">
+           <nav className="navbar navbar-expand-lg bg-body-tertiary d-lg-none w-100 lr-pad-none">
                 <div className="container-fluid">
                     <a className="navbar-brand text-white" href="#">Charlotte Stone</a>
                     <button className="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
@@ -55,13 +74,19 @@ export default function Navbar() {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a className="nav-link text-white" aria-current="page" href="#">{t('home')}</a>
+                                <a className="nav-link text-white" aria-current="page" href="#Home" onClick={(e) => handleSmoothScroll(e, 'Home')}>
+                                    {t('home')}
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">{t('features')}</a>
+                                <a className="nav-link text-white" href="#About" onClick={(e) => handleSmoothScroll(e, 'About')}>
+                                    {t('features')}
+                                </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#">{t('pricing')}</a>
+                                <a className="nav-link text-white" href="#Pricing" onClick={(e) => handleSmoothScroll(e, 'Pricing')}>
+                                    {t('pricing')}
+                                </a>
                             </li>
                             <li id="language-dropdown-sm" className="nav-item dropdown">
                                 {/* Language switcher for small and medium screens */}

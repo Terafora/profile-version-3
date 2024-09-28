@@ -15,7 +15,7 @@ export default function About() {
     };
 
     return (
-        <section className="row about">
+        <section className="row about" id="About">
             <div className="row g-5 mx-3">
                 <h2 className="my-5">{t('about')}</h2>
                 <div className="about-bg-layer1">
