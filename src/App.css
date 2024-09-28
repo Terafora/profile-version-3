@@ -235,10 +235,12 @@ h2 {
         linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
     background-size: 8px 8px;
     background-repeat: repeat;
+    border: #FFB116 10px solid;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-bottom: 10rem;
     position: relative;
+    transform: skew(-10deg);
     overflow: hidden;
     max-height: 25rem;
 }
