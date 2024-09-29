@@ -50,8 +50,18 @@ export default function Navbar() {
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#" onClick={(e) => handleSmoothScroll(e, 'SomeOtherSection')}>
-                            <i className="fa-solid fa-tag"></i>
+                        <a className="nav-link" href="#Technologies" onClick={(e) => handleSmoothScroll(e, 'Technologies')}>
+                            <img src="./pictures/icons/TechIcon.svg" alt="About Button"/>
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Projects" onClick={(e) => handleSmoothScroll(e, 'Projects')}>
+                            <img src="./pictures/icons/WorkIcon.svg" alt="About Button"/>
+                        </a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#Contact" onClick={(e) => handleSmoothScroll(e, 'Contact')}>
+                            <img src="./pictures/icons/MailIcon.svg" alt="About Button"/>
                         </a>
                     </li>
                     <li className="nav-item dropdown">
@@ -84,8 +94,18 @@ export default function Navbar() {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#Pricing" onClick={(e) => handleSmoothScroll(e, 'Pricing')}>
-                                    {t('pricing')}
+                                <a className="nav-link text-white" href="#About" onClick={(e) => handleSmoothScroll(e, 'About')}>
+                                    {t('features')}
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-white" href="#Projects" onClick={(e) => handleSmoothScroll(e, 'Projects')}>
+                                    {t('projects')}
+                                </a>
+                            </li>
+                            <li className="nav-item">
+                                <a className="nav-link text-white" href="#Contact" onClick={(e) => handleSmoothScroll(e, 'Contact')}>
+                                    {t('contact')}
                                 </a>
                             </li>
                             <li id="language-dropdown-sm" className="nav-item dropdown">
