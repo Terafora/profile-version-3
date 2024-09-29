@@ -8,6 +8,7 @@
     "hello": "Hwyl!",
     "aboutText1": "Fi yw Charlotte, datblygwr gwe llawn pentwr brwd sy'n byw yn Ardal Abertawe Fwyaf. Gyda mwy na phum mlynedd o brofiad mewn cefnogaeth dechnegol a pheirianneg meddalwedd, rwy'n arbenigo mewn creu gwefannau deinamig gan ddefnyddio JavaScript, Python, React, Node, Django, a mwy. Mae fy ymagwedd yn canolbwyntio ar bobl, gan ganolbwyntio ar ddarparu gwerth pendant a sicrhau profiadau defnyddiwr di-dor.",
     "aboutText2": "Mae gen i gefndir cadarn mewn cyfieithu, ar ôl cymryd rhan mewn prosiectau amrywiol yn rhychwantu sectorau technoleg ac addysg. Tra bod Saesneg yn iaith frodorol i mi, rwy'n rhugl yn Japaneeg a Ffrangeg tra hefyd yn gyfarwydd â sawl iaith arall. Rwy'n barhaus yn chwilio am gyfleoedd newydd i helpu busnesau i gyrraedd cynulleidfa fyd-eang.",
+    "technologies": "Technolegau",
     "RecentProjects": "Prosiectau Diweddar",
     "projects": {
         "1": {
@@ -76,6 +77,14 @@
     },
     "RecentPosts": "Swyddi Diweddar",
     "showMore": "Dangos mwy",
+    "letMeHelpYou": "Gad i Mi Helpu Chi!",
+    "yourName": "Eich Enw",
+    "yourEmail": "Eich E-bost",
+    "yourMessage": "Eich Neges",
+    "sendMessage": "Anfon Neges",
+    "enterYourName": "Rhowch eich enw",
+    "enterYourEmail": "Rhowch eich e-bost",
+    "enterYourMessage": "Rhowch eich neges",
     "footer": "Dyluniwyd a Datblygwyd gan Charlotte Stone",
     "GithubIcon": "Eicon Github",
     "freeCodeCampIcon": "Eicon freeCodeCamp",
