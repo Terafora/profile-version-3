@@ -175,29 +175,10 @@ h2 {
     font-size: 1.2rem;
 }
 
-.about-bg-layer1 {
-    background-color: #FFDC35;
-    padding: 0.2rem;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    transform: rotate(6deg);
-    position: relative;
-}
-
-.about-bg-layer2{
-    background: linear-gradient(90deg, #FFB116, #FF5700);
-    border-radius: 10px;
-    padding: 0.2rem;
-    transform: rotate(-2deg);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-}
-
 .about-bg-layer3{
     background: radial-gradient(circle, #d4c098, #805e2b);
     border-radius: 10px;
-    padding: 2rem;
-    transform: rotate(-4deg);
+    padding: 2rem 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;
 }
@@ -377,6 +358,41 @@ h2 {
   }
 }
 
+/* Contact Section */
+
+#Contact {
+    background-color: #121212;
+    background-image: 
+        linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
+    background-size: 8px 8px;
+    background-repeat: repeat;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 0;
+    margin-bottom: 3rem;
+}
+
+.contact-Title {
+    margin-top: 5rem;
+}
+
+#Contact .btn-learn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+input:focus, textarea:focus {
+    box-shadow: 0 0 10px rgba(255, 220, 53, 0.5));
+    outline: none;
+}
+
+/* Footer Section */
+
 footer {
     background-color: #121212;
     background-image: 
@@ -520,6 +536,28 @@ footer p {
         font-size: 5rem;
     }
 
+    .about-bg-layer1 {
+    background-color: #FFDC35;
+    padding: 0.2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: rotate(6deg);
+    position: relative;
+    }
+
+    .about-bg-layer2{
+        background: linear-gradient(90deg, #FFB116, #FF5700);
+        border-radius: 10px;
+        padding: 0.2rem;
+        transform: rotate(-2deg);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        position: relative;
+    }
+
+    .about-bg-layer3{
+        transform: rotate(-4deg);
+    }
+
     .anime-picture{
         position: absolute;
         min-height: 500px;
@@ -557,20 +595,15 @@ footer p {
     animation: scroll-tech 25s linear infinite;
 }
 
-    /* Keyframes for scrolling effect */
-    @keyframes scroll-tech {
-        0% {
-            transform: translateX(0);
-        }
-        100% {
-            transform: translateX(-323.3rem); 
-        }
-    }
-
     .tech-icons {
         height: 16rem;
         margin-left: 1rem;
         transform: skew(10deg);
         flex-shrink: 0;
+    }
+
+    #Contact {
+        border: #FFB116 10px solid;
+        margin-bottom: 5rem;
     }
 }
