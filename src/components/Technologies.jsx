@@ -1,9 +1,12 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Technologies = () => {
+    const { t } = useTranslation();
+
     return (
-        <div>
-            <h2>Technologies</h2>
+        <div id="Technologies">
+            <h2>{t('technologies')}</h2>
             <div className="tech-bar-container">
                 <div id="tech-bar">
                     <div className="scroll-tech">
