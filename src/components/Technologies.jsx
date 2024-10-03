@@ -13,7 +13,7 @@ const Technologies = () => {
                         <img src="./pictures/techicons/HTML.svg" className="tech-icons" alt="HTML5"/>
                         <img src="./pictures/techicons/CSS.svg" className="tech-icons" alt="CSS3"/>
                         <img src="./pictures/techicons/JavaScript.svg" className="tech-icons" alt="JavaScript"/>
-                        <img src="./pictures/techicons/jQuery.svg" className="tech-icons" alt="jQuery"/>
+                        <img src="./pictures/techicons/JQuery.svg" className="tech-icons" alt="jQuery"/>
                         <img src="./pictures/techicons/NodeJS.svg" className="tech-icons" alt="Node.js"/>
                         <img src="./pictures/techicons/Express.svg" className="tech-icons" alt="Express"/>
                         <img src="./pictures/techicons/React.svg" className="tech-icons" alt="React"/>
@@ -32,7 +32,7 @@ const Technologies = () => {
                         <img src="./pictures/techicons/HTML.svg" className="tech-icons" alt="HTML5"/>
                         <img src="./pictures/techicons/CSS.svg" className="tech-icons" alt="CSS3"/>
                         <img src="./pictures/techicons/JavaScript.svg" className="tech-icons" alt="JavaScript"/>
-                        <img src="./pictures/techicons/jQuery.svg" className="tech-icons" alt="jQuery"/>
+                        <img src="./pictures/techicons/JQuery.svg" className="tech-icons" alt="jQuery"/>
                         <img src="./pictures/techicons/NodeJS.svg" className="tech-icons" alt="Node.js"/>
                         <img src="./pictures/techicons/Express.svg" className="tech-icons" alt="Express"/>
                         <img src="./pictures/techicons/React.svg" className="tech-icons" alt="React"/>
