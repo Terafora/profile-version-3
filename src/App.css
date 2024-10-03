@@ -66,6 +66,12 @@ h2 {
             linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
         background-size: 8px 8px;
         background-repeat: repeat;
+        background-repeat: repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
 }
 
 .navbar-toggler-icon {
@@ -206,6 +212,10 @@ h2 {
 }
 
 /* Technologies Section */
+
+#Technologies{
+    min-height: 100vh;
+}
 
 .tech-bar-container {
     position: relative;
@@ -375,6 +385,10 @@ h2 {
     border-radius: 10px;
     margin-top: 0;
     margin-bottom: 3rem;
+}
+
+.contact-container {
+    margin-top: 2rem;
 }
 
 .contact-Title {

@@ -90,17 +90,17 @@ export default function Navbar() {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="#About" onClick={(e) => handleSmoothScroll(e, 'About')}>
-                                    {t('features')}
+                                    {t('about')}
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link text-white" href="#About" onClick={(e) => handleSmoothScroll(e, 'About')}>
-                                    {t('features')}
+                                <a className="nav-link text-white" href="#Technologies" onClick={(e) => handleSmoothScroll(e, 'Technologies')}>
+                                    {t('technologies')}
                                 </a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link text-white" href="#Projects" onClick={(e) => handleSmoothScroll(e, 'Projects')}>
-                                    {t('projects')}
+                                    {t('project')}
                                 </a>
                             </li>
                             <li className="nav-item">
@@ -111,7 +111,7 @@ export default function Navbar() {
                             <li id="language-dropdown-sm" className="nav-item dropdown">
                                 {/* Language switcher for small and medium screens */}
                                 <a className="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    {t('Languages')}
+                                    {t('languages')}
                                 </a>
                                 <LanguageSwitcher />
                             </li>

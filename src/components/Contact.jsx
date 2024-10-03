@@ -50,7 +50,7 @@ export default function Contact() {
     };
 
 return (
-    <section className="row g-5 mx-2">
+    <section className="row g-5 mx-2 contact-container">
         <h2 className="contact-Title">{t('letMeHelpYou')}</h2>
         <div id="Contact">
         <div className="col-12 Contact-inner px-5">
