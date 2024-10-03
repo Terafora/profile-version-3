@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Varela+Round&display=swap');
 
 body,html {
     font-family: 'Roboto', sans-serif;
@@ -65,7 +64,6 @@ h2 {
             linear-gradient(0deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%), 
             linear-gradient(90deg, rgba(255, 255, 255, 0.1) 50%, transparent 50%);
         background-size: 8px 8px;
-        background-repeat: repeat;
         background-repeat: repeat;
     position: fixed;
     top: 0;
@@ -268,7 +266,7 @@ h2 {
     flex-shrink: 0;
 }
 
-// Recent Projects Section
+/* Recent Projects Section */
 
 .recent-projects {
     margin-top: 10rem;
