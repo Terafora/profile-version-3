@@ -4,13 +4,14 @@ import { useTranslation } from 'react-i18next';
 export default function MainContent() {
     const { t } = useTranslation();
 
-    // Custom smooth scroll function with offset
+    // Custom smooth scroll function with offset for all sections
     const handleSmoothScroll = (e, targetId) => {
         e.preventDefault();
         const targetElement = document.getElementById(targetId);
 
-        if (targetElement.id === 'About') {
-            const offsetPosition = targetElement.offsetTop - 90;
+        if (targetElement) {
+            // Apply offset for all target sections
+            const offsetPosition = targetElement.offsetTop - 90; // Adjust the offset as needed
             window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'
