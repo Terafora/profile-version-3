@@ -12,6 +12,7 @@ const LanguageSwitcher = () => {
         <ul className="dropdown-menu language-menu" aria-labelledby="navbarDropdownMenuLink">
             <li><a className="dropdown-item language-item" onClick={() => changeLanguage('en')}>EN</a></li>
             <li><a className="dropdown-item language-item" onClick={() => changeLanguage('jp')}>日本</a></li>
+            <li><a className="dropdown-item language-item" onClick={() => changeLanguage('fr')}>FR</a></li>
             <li><a className="dropdown-item language-item" onClick={() => changeLanguage('cy')}>CY</a></li>
         </ul>
     );

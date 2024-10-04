@@ -1,0 +1,96 @@
+{
+    "name": "Charlotte Stone",
+    "title": "Développeuse Logiciel, Traductrice",
+    "learnMore": "En savoir plus",
+    "infoBar": "Charlotte Stone est actuellement ouverte à de nouvelles opportunités ! Contactez-la pour discuter de vos besoins en projet ou en traduction.",
+    "contact": "Contact",
+    "about": "À propos",
+    "hello": "Bonjour!",
+    "aboutText1": "Je suis Charlotte, une développeuse web full-stack passionnée, basée dans la région de Swansea. Avec plus de cinq ans d'expérience en support technique et ingénierie logicielle, je me spécialise dans la création de sites web dynamiques utilisant JavaScript, Python, React, Node, Django, et bien plus encore. Mon approche est centrée sur l'humain, visant à offrir une valeur tangible et à assurer des expériences utilisateurs fluides.",
+    "aboutText2": "Je possède une solide expérience en traduction, ayant participé à divers projets dans les secteurs de la technologie et de l'éducation. Bien que l'anglais soit ma langue maternelle, je maîtrise le japonais et le français, et je parle également plusieurs autres langues. Je suis constamment à la recherche de nouvelles opportunités pour aider les entreprises à atteindre un public mondial.",
+    "technologies": "Technologies",
+    "home": "Accueil",
+    "languages": "Langues",
+    "project": "Projets",
+    "RecentProjects": "Projets Récents",
+    "projects": {
+        "1": {
+            "title": "Mon Profil Github",
+            "description": "Découvrez plus de mes travaux sur Github.",
+            "altText": "Découvrez plus de mes travaux sur Github."
+        },
+        "2": {
+            "title": "ByteWise Language Labs",
+            "description": "Il s'agit d'une page de destination pour un site fictif d'apprentissage des langues utilisant des citations d'anciens collègues. Elle a été construite avec HTML, CSS et JavaScript.",
+            "altText": "Image d'un site web que j'ai créé."
+        },
+        "3": {
+            "title": "My Mixtape",
+            "description": "Il s'agit d'un site pour créer et partager des mixtapes en utilisant des liens en ligne. Il a été construit avec JavaScript, Python et Django.",
+            "altText": "Image d'un site web que j'ai créé."
+        },
+        "4": {
+            "title": "Sekai Experience",
+            "description": "Il s'agit d'un site pour publier et partager des expériences. Il a été construit avec EJS, NodeJS, Express et MongoDB.",
+            "altText": "Image d'un site web que j'ai créé."
+        },
+        "5": {
+            "title": "Profil de Sapphy Doyle",
+            "description": "Il s'agit du site profil de Sapphy Doyle. Il a été construit avec HTML, CSS, JavaScript et React.",
+            "altText": "Image d'un site web que j'ai créé."
+        },
+        "6": {
+            "title": "Pomodoro Timer et Checklist de Bureau",
+            "description": "Le Pomodoro Timer et Checklist est un outil de productivité de bureau construit avec Electron, HTML, CSS et JavaScript. Il combine un minuteur Pomodoro pour la gestion du temps avec une fonctionnalité de liste de tâches.",
+            "altText": "Application de bureau pour Pomodoro Timer et Checklist."
+        }
+    },
+    "RecentTranslations": "Traductions Récentes",
+    "translations": {
+        "2": {
+            "title": "Mon Profil freeCodeCamp",
+            "description": "Découvrez plus de mes traductions sur freeCodeCamp.",
+            "altText": "Découvrez plus de mes traductions sur freeCodeCamp."
+        },
+        "3": {
+            "title": "Configurer une IP Statique sur Ubuntu – Tutoriel IP sous Linux",
+            "description": "Dans la plupart des configurations réseau, le serveur DHCP du routeur attribue l'adresse IP de manière dynamique par défaut. Si vous voulez que l'adresse IP de votre système reste la même à chaque fois, vous pouvez la forcer à utiliser une IP statique.",
+            "altText": "Comment configurer une IP sur Ubuntu"
+        },
+        "4": {
+            "title": "Exemple de JSON Stringify – Comment Analyser un Objet JSON avec JS",
+            "description": "Le JSON, ou JavaScript Object Notation, est omniprésent. Si vous avez déjà utilisé une application web, il est fort probable qu'elle ait utilisé le JSON pour structurer, stocker et transmettre des données entre ses serveurs et votre appareil.",
+            "altText": "Comment analyser un objet JSON avec JavaScript"
+        },
+        "5": {
+            "title": "Comment Mettre à Jour Node et NPM vers la Dernière Version",
+            "description": "Node est un environnement d'exécution pour exécuter du code JavaScript en dehors du navigateur, côté serveur.",
+            "altText": "Comment mettre à jour Node et NPM vers la dernière version"
+        },
+        "6": {
+            "title": "Tutoriel de Scripting Bash – Script Shell sous Linux pour Débutants",
+            "description": "Sous Linux, l'automatisation des processus repose fortement sur les scripts shell. Cela implique de créer un fichier contenant une série de commandes qui peuvent être exécutées ensemble.",
+            "altText": "Tutoriel de Scripting Bash – Script Shell sous Linux pour Débutants"
+        },
+        "7": {
+            "title": "Rafraîchir une Page avec JavaScript – Comment Recharger une Page en JS",
+            "description": "JavaScript est un langage de programmation polyvalent qui permet aux développeurs de créer des applications web dynamiques et interactives. Une tâche courante dans le développement web est de rafraîchir ou recharger une page web, soit pour mettre à jour son contenu, soit pour déclencher certaines actions.",
+            "altText": "Rafraîchir une page avec JavaScript – Comment recharger une page en JS"
+        }
+    },
+    "letMeHelpYou": "Laissez-moi vous aider !",
+    "yourName": "Votre Nom",
+    "yourEmail": "Votre Email",
+    "yourMessage": "Votre Message",
+    "sendMessage": "Envoyer le Message",
+    "enterYourName": "Entrez votre nom",
+    "enterYourEmail": "Entrez votre email",
+    "enterYourMessage": "Entrez votre message",
+    "RecentPosts": "Articles Récents",
+    "showMore": "Voir plus",
+    "footer": "Conçu et Développé par Charlotte Stone",
+    "GithubIcon": "Icône Github",
+    "freeCodeCampIcon": "Icône freeCodeCamp",
+    "LinkedInIcon": "Icône LinkedIn",
+    "blueSkyIcon": "Icône Blue Sky"
+}
