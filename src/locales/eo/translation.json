@@ -1,0 +1,97 @@
+
+{
+    "name": "Charlotte Stone",
+    "title": "Programisto, Tradukisto",
+    "learnMore": "Lernu Pli",
+    "infoBar": "Charlotte Stone nuntempe estas malfermita al novaj ŝancoj! Kontaktu por diskuti vian projekton aŭ tradukajn bezonojn.",
+    "contact": "Kontakto",
+    "about": "Pri Mi",
+    "hello": "Saluton!",
+    "aboutText1": "Mi estas Charlotte, pasia plenstaka retprogramisto bazita en la Staffordshire-areo. Kun pli ol kvin jaroj da sperto en teknika subteno kaj programaro-inĝenierado, mi specialiĝas pri kreo de dinamikaj retejoj uzante JavaScript, Python, React, Node, Django, kaj pli. Mia aliro estas hom-centra, fokusanta liveradon de perceptebla valoro kaj certiganta seninterrompajn uzantajn spertojn.",
+    "aboutText2": "Mi havas fortan fono en tradukado, estante engaĝita en diversaj projektoj tra la teknologia kaj eduka sektoroj. Dum la angla estas mia denaska lingvo, mi estas flua en la japana kaj franca kaj ankaŭ konversacia en diversaj aliaj lingvoj. Mi konstante serĉas novajn ŝancojn por helpi entreprenojn atingi tutmondan publikon.",
+    "technologies": "Teknologioj",
+    "home": "Hejmo",
+    "languages": "Lingvoj",
+    "project": "Projektoj",
+    "RecentProjects": "Lastatempaj Projektoj",
+    "projects": {
+        "1": {
+            "title": "Mia Github Profilo",
+            "description": "Rigardu pli el mia laboro en Github.",
+            "altText": "Rigardu pli el mia laboro en Github."
+        },
+        "2": {
+            "title": "ByteWise Lingva Laboratorioj",
+            "description": "Ĉi tio estas alvoka paĝo por fikcia lingvo-instruada retejo uzanta citaĵojn de iama kolegoj. Ĝi estis konstruita uzante; HTML, CSS kaj JavaScript.",
+            "altText": "Bildo de retejo kiun mi faris."
+        },
+        "3": {
+            "title": "Mia Miksaĵo",
+            "description": "Ĉi tio estas retejo por krei kaj dividi miksaĵojn uzante retajn ligojn. Ĝi estis konstruita uzante; JavaScript, Python kaj Django.",
+            "altText": "Bildo de retejo kiun mi faris."
+        },
+        "4": {
+            "title": "Sekai Sperto",
+            "description": "Ĉi tio estas retejo por afiŝi kaj dividi spertojn. Ĝi estis konstruita uzante; EJS, NodeJS, Express kaj MongoDB.",
+            "altText": "Bildo de retejo kiun mi faris."
+        },
+        "5": {
+            "title": "Sapphy Doyle Profilo Retejo",
+            "description": "Ĉi tio estas la profila retejo por Sapphy Doyle. Ĝi estis konstruita uzante HTML, CSS, JavaScript kaj React.",
+            "altText": "Bildo de retejo kiun mi faris."
+        },
+        "6": {
+            "title": "Labortabla Pomodoro Tempomezurilo kaj Kontrola Listo",
+            "description": "La Pomodoro Tempomezurilo kaj Kontrola Listo Apliko estas produktiveca ilo konstruita uzante Electron, HTML, CSS kaj JavaScript. Ĝi kombinas Pomodoro-tempomezurilon por temp-administrado kun kontrol-listo por task-organizo.",
+            "altText": "Pomodoro Tempomezurilo kaj Kontrola Listo labortabla aplikaĵo."
+        }
+    },
+    "RecentTranslations": "Lastatempaj Tradukoj",
+    "translations": {
+        "2": {
+            "title": "Mia freeCodeCamp Profilo",
+            "description": "Rigardu pli el miaj tradukoj en freeCodeCamp.",
+            "altText": "Rigardu pli el miaj tradukoj en freeCodeCamp."
+        },
+        "3": {
+            "title": "Agordi Static IP en Ubuntu – Linuksa IP Adresa Lernilo",
+            "description": "En plej multaj retaj agordoj, la DHCP-servilo de la enkursigilo atribuas la IP-adreson dinamike defaŭlte. Se vi volas certigi, ke via sistemo IP restas la sama ĉiufoje, vi povas devigi ĝin uzi statikan IP.",
+            "altText": "Kiel agordi IP en Ubuntu"
+        },
+        "4": {
+            "title": "JSON Stringify Ekzemplo – Kiel Analizi JSON Objekton kun JS",
+            "description": "JSON, aŭ JavaScript Objekta Noto, estas ĉie. Se vi iam uzis retan aplikaĵon, estas tre verŝajne ke ĝi uzis JSON por strukturi, stoki, kaj transsendi datumojn inter ĝiaj serviloj kaj via aparato.",
+            "altText": "Kiel analizi JSON objekton kun JavaScript"
+        },
+        "5": {
+            "title": "Kiel Ĝisdatigi Node kaj NPM al la Plej Nova Versio",
+            "description": "Node estas rultempa medio por ekzekuti JavaScript-kodon ekster la retumilo, ĉe la servila flanko.",
+            "altText": "Kiel ĝisdatigi Node kaj NPM al la plej nova versio"
+        },
+        "6": {
+            "title": "Bash Skriptado Lernilo – Linuksa Ŝelo Skripto kaj Komandlinio por Komencantoj",
+            "description": "En Linukso, proceza aŭtomatigo forte dependas de ŝelo-skriptado. Ĉi tio implikas krei dosieron enhavantan serion da komandadoj, kiuj povas esti ekzekutitaj kune.",
+            "altText": "Bash Skriptado Lernilo – Linuksa Ŝelo Skripto kaj Komandlinio por Komencantoj"
+        },
+        "7": {
+            "title": "JavaScript Reŝargi Paĝon – Kiel Reŝargi Paĝon en JS",
+            "description": "JavaScript estas multflanka programlingvo kiu permesas al programistoj krei dinamikajn kaj interaktivajn retajn aplikaĵojn. Unu komuna tasko en retprogramado estas reŝargi aŭ refreŝigi retpaĝon, ĉu por ĝisdatigi ĝian enhavon aŭ por aktivigi certajn agojn.",
+            "altText": "JavaScript Reŝargi Paĝon – Kiel Reŝargi Paĝon en JS"
+        }
+    },
+    "letMeHelpYou": "Lasu Min Helpi Vin!",
+    "yourName": "Via Nomo",
+    "yourEmail": "Via Retpoŝto",
+    "yourMessage": "Via Mesaĝo",
+    "sendMessage": "Sendu Mesaĝon",
+    "enterYourName": "Enigu vian nomon",
+    "enterYourEmail": "Enigu vian retpoŝton",
+    "enterYourMessage": "Enigu vian mesaĝon",
+    "RecentPosts": "Lastatempaj Afiŝoj",
+    "showMore": "Montru Pli",
+    "footer": "Desegnita kaj Evoluigita de Charlotte Stone",
+    "GithubIcon": "Github Iko",
+    "freeCodeCampIcon": "freeCodeCamp Iko",
+    "LinkedInIcon": "LinkedIn Iko",
+    "blueSkyIcon": "Blue Sky Iko"
+}
