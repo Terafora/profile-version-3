@@ -6,6 +6,7 @@ import enTranslation from './locales/en/translation.json';
 import jpTranslation from './locales/jp/translation.json';
 import frTranslation from './locales/fr/translation.json';
 import cyTranslation from './locales/cy/translation.json';
+import eoTranslation from './locales/eo/translation.json';
 
 i18n
     .use(LanguageDetector)
@@ -15,7 +16,9 @@ i18n
             en: { translation: enTranslation },
             jp: { translation: jpTranslation },
             fr: { translation: frTranslation },
-            cy: { translation: cyTranslation }
+            cy: { translation: cyTranslation },
+            eo: { translation: eoTranslation}
+
         },
         fallbackLng: 'en',
         debug: true,
