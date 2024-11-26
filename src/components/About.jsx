@@ -8,6 +8,7 @@ export default function About() {
     const aboutTexts = [
         t('aboutText1'),
         t('aboutText2'),
+        t('aboutText3')
     ];
 
     const handleNextText = () => {
