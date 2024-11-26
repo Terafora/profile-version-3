@@ -14,6 +14,7 @@ const LanguageSwitcher = () => {
             <li><a className="dropdown-item language-item" onClick={() => changeLanguage('jp')}>日本</a></li>
             <li><a className="dropdown-item language-item" onClick={() => changeLanguage('fr')}>FR</a></li>
             <li><a className="dropdown-item language-item" onClick={() => changeLanguage('cy')}>CY</a></li>
+            <li><a className="dropdown-item language-item" onClick={() => changeLanguage('eo')}>EO</a></li>
         </ul>
     );
 };
