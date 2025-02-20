@@ -27,7 +27,7 @@
     
     {
         "id": 7,
-        "imgSrc": "./pictures/project-exit-velocity.png",
+        "imgSrc": "./pictures/project_exit_velocity.png",
         "url": "https://project-exit-velocity-blog.vercel.app"
     }
 ]
