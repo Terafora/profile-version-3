@@ -20,10 +20,10 @@
             "description": "Découvrez plus de mes travaux sur Github.",
             "altText": "Découvrez plus de mes travaux sur Github."
         },
-        "2": {
-            "title": "ByteWise Language Labs",
-            "description": "Il s'agit d'une page de destination pour un site fictif d'apprentissage des langues utilisant des citations d'anciens collègues. Elle a été construite avec HTML, CSS et JavaScript.",
-            "altText": "Image d'un site web que j'ai créé."
+        "7": {
+            "title": "Projet Exit Velocity",
+            "description": "Un blog pour suivre mon développement logiciel et mes études ; stack MERN.",
+            "altText": "Logo de Projet Exit Velocity."
         },
         "3": {
             "title": "My Mixtape",
@@ -35,12 +35,12 @@
             "description": "Il s'agit d'un site pour publier et partager des expériences. Il a été construit avec EJS, NodeJS, Express et MongoDB.",
             "altText": "Image d'un site web que j'ai créé."
         },
-        "5": {
-            "title": "Profil de Sapphy Doyle",
-            "description": "Il s'agit du site profil de Sapphy Doyle. Il a été construit avec HTML, CSS, JavaScript et React.",
-            "altText": "Image d'un site web que j'ai créé."
-        },
         "6": {
+            "title": "YomiSaver",
+            "description": "Une extension de navigateur pour faciliter l’apprentissage du japonais. Créée avec HTML, CSS et JavaScript.",
+            "altText": "Icône de l’extension."
+        },
+        "5": {
             "title": "Pomodoro Timer et Checklist de Bureau",
             "description": "Le Pomodoro Timer et Checklist est un outil de productivité de bureau construit avec Electron, HTML, CSS et JavaScript. Il combine un minuteur Pomodoro pour la gestion du temps avec une fonctionnalité de liste de tâches.",
             "altText": "Application de bureau pour Pomodoro Timer et Checklist."

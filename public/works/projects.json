@@ -5,11 +5,6 @@
         "url": "https://github.com/Terafora"
     },
     {
-        "id": 2,
-        "imgSrc": "./pictures/LanguageLabs.png",
-        "url": "https://github.com/Terafora/ByteWise-Language-Labs"
-    },
-    {
         "id": 3,
         "imgSrc": "./pictures/mmtref.png",
         "url": "https://github.com/Terafora/My-Mixtape"
@@ -21,12 +16,18 @@
     },
     {
         "id": 5,
-        "imgSrc": "./pictures/SapphyDoyleProfileSite.png",
-        "url": "https://github.com/Terafora/Sapphy-Doyle-Profile-Site"
+        "imgSrc": "./pictures/pomodoroTimer.png",
+        "url": "https://github.com/Terafora/desktop-pomodoro"
     },
     {
         "id": 6,
-        "imgSrc": "./pictures/pomodoroTimer.png",
-        "url": "https://github.com/Terafora/desktop-pomodoro"
+        "imgSrc": "./pictures/yomisaverb.png",
+        "url": "https://github.com/Terafora/Yomisaver-Free"
+    },
+    
+    {
+        "id": 7,
+        "imgSrc": "./pictures/project-exit-velocity.png",
+        "url": "https://project-exit-velocity-blog.vercel.app"
     }
 ]

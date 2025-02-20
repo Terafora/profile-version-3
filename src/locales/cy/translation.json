@@ -20,10 +20,10 @@
             "description": "Gweld mwy o fy ngwaith ar Github.",
             "altText": "Gweld mwy o fy ngwaith ar Github."
         },
-        "2": {
-            "title": "ByteWise Language Labs",
-            "description": "Dyma dudalen lanio ar gyfer safle dysgu iaith dychmygol gan ddefnyddio dyfyniadau gan gyn-gydweithwyr. Fe'i hadeiladwyd gan ddefnyddio; HTML, CSS a JavaScript.",
-            "altText": "Delwedd o wefan rydw i wedi'i greu"
+        "7": {
+            "title": "Project Exit Velocity",
+            "description": "Blog i ddilyn fy natblygiad meddalwedd a'm hastudiaethau; pentwr MERN.",
+            "altText": "Logo ar gyfer Project Exit Velocity."
         },
         "3": {
             "title": "My Mixtape",
@@ -35,12 +35,12 @@
             "description": "Mae hwn yn safle ar gyfer postio a rhannu profiadau. Fe'i hadeiladwyd gan ddefnyddio; EJS, NodeJS, Express a MongoDB.",
             "altText": "Delwedd o wefan rydw i wedi'i greu"
         },
-        "5": {
-            "title": "Safle Proffil Sapphy Doyle",
-            "description": "Dyma'r safle proffil ar gyfer Sapphy Doyle. Fe'i hadeiladwyd gan ddefnyddio HTML, CSS, JavaScript a React.",
-            "altText": "Delwedd o wefan rydw i wedi'i greu"
-        },
         "6": {
+            "title": "YomiSaver",
+            "description": "Estyniad porwr i leihau'r gwaith caled o ddysgu Japaneeg. Fe'i hadeiladwyd gan ddefnyddio HTML, CSS a JavaScript.",
+            "altText": "Eicon yr estyniad."
+        },
+        "5": {
             "title": "Amserlen Pomodoro a Rhestr Wirio'r Desg",
             "description": "Mae'r Ap Pomodoro Timer a Rhestr Wirio yn offeryn cynhyrchiant desktop a adeiladwyd gan ddefnyddio Electron, HTML, CSS, a JavaScript. Mae'n cyfuno timer Pomodoro ar gyfer rheoli amser â nodwedd rhestr wirio ar gyfer trefnu tasg.",
             "altText": "Ap desg Amserydd Pomodoro a Rhestr Wirio"

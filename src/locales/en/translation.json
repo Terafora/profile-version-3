@@ -20,10 +20,10 @@
             "description": "View more of my work on Github.",
             "altText": "View more of my work on Github."
         },
-        "2": {
-            "title": "ByteWise Language Labs",
-            "description": "This is a landing page for a fictitious language teaching site using quotes from former colleagues. It was built using; HTML, CSS and JavaScript.",
-            "altText": "Image of a website I've made."
+        "7": {
+            "title": "Project Exit Velocity",
+            "description": "A blog to follow my development of software and studies; MERN stack.",
+            "altText": "Logo for Project Exit Velocity."
         },
         "3": {
             "title": "My Mixtape",
@@ -35,12 +35,12 @@
             "description": "This is a site for posting and sharing experiences. It was built using; EJS, NodeJS, Express and MongoDB.",
             "altText": "Image of a website I've made."
         },
-        "5": {
-            "title": "Sapphy Doyle Profile Site",
-            "description": "This is the profile site for Sapphy Doyle. It was built using HTML, CSS, JavaScript and React.",
-            "altText": "Image of a website I've made."
-        },
         "6": {
+            "title": "YomiSaver",
+            "description": "A browser extension for taking the busy work out of learning Japanese. It was built using HTML, CSSand JavaScript.",
+            "altText": "Extension icon."
+        },
+        "5": {
             "title": "Desktop Pomodoro Timer and Checklist",
             "description": "The Pomodoro Timer and Checklist Application is a desktop productivity tool built using Electron, HTML, CSS, and JavaScript. It combines a Pomodoro timer for time management with a checklist feature for task organization.",
             "altText": "Pomodoro Timer and Checklist desktop app."

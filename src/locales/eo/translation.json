@@ -20,10 +20,10 @@
             "description": "Rigardu pli el mia laboro en Github.",
             "altText": "Rigardu pli el mia laboro en Github."
         },
-        "2": {
-            "title": "ByteWise Lingva Laboratorioj",
-            "description": "Ĉi tio estas alvoka paĝo por fikcia lingvo-instruada retejo uzanta citaĵojn de iama kolegoj. Ĝi estis konstruita uzante; HTML, CSS kaj JavaScript.",
-            "altText": "Bildo de retejo kiun mi faris."
+        "7": {
+            "title": "Projekto Exit Velocity",
+            "description": "Blogo por sekvi mian programaran disvolvadon kaj studojn; MERN-stako.",
+            "altText": "Logoo de Projekto Exit Velocity."
         },
         "3": {
             "title": "Mia Miksaĵo",
@@ -35,12 +35,12 @@
             "description": "Ĉi tio estas retejo por afiŝi kaj dividi spertojn. Ĝi estis konstruita uzante; EJS, NodeJS, Express kaj MongoDB.",
             "altText": "Bildo de retejo kiun mi faris."
         },
-        "5": {
-            "title": "Sapphy Doyle Profilo Retejo",
-            "description": "Ĉi tio estas la profila retejo por Sapphy Doyle. Ĝi estis konstruita uzante HTML, CSS, JavaScript kaj React.",
-            "altText": "Bildo de retejo kiun mi faris."
-        },
         "6": {
+            "title": "YomiSaver",
+            "description": "Retumila etendaĵo por faciligi la lernadon de la japana lingvo. Ĝi estis kreita per HTML, CSS kaj JavaScript.",
+            "altText": "Etendaĵa piktogramo."
+        },
+        "5": {
             "title": "Labortabla Pomodoro Tempomezurilo kaj Kontrola Listo",
             "description": "La Pomodoro Tempomezurilo kaj Kontrola Listo Apliko estas produktiveca ilo konstruita uzante Electron, HTML, CSS kaj JavaScript. Ĝi kombinas Pomodoro-tempomezurilon por temp-administrado kun kontrol-listo por task-organizo.",
             "altText": "Pomodoro Tempomezurilo kaj Kontrola Listo labortabla aplikaĵo."
